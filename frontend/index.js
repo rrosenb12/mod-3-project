@@ -26,11 +26,22 @@ const renderQuizzes = (quiz) => {
 const getQuiz = (e) => {
     const currentQuizId = e.target.dataset.id
     const quizNow = quizzesArray.find(quiz => quiz.id == currentQuizId)
-    renderQuiz(quizNow)
+    fetchQuestions(quizNow)
 }
 
-const renderQuiz = (quizNow) => {
-    console.log(quizNow)
+const fetchQuestions = (quizNow) => {
+    fetch('http://localhost:3000/api/v1/questions')
+    .then(response => response.json())
+    .then(questionsArray => getQuizQuestions(questionsArray, quizNow))
+}
+
+const getQuizQuestions = (questionsArray, quizNow) => {
+    const quizQuestions = questionsArray.filter(question => question.quiz_id == quizNow.id)
+    renderQuestions(quizQuestions)
+}
+
+const renderQuestions = (quizQuestions) => {
+    console.log(quizQuestions)
 }
 
 fetchQuizzes();
