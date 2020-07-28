@@ -5108,3 +5108,101 @@ Processing by Api::V1::QuestionsController#index as */*
 Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
 
 
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:28:50 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.7ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:28:51 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:28:51 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.3ms | Allocations: 1225)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:29:45 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (101.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 123ms (Views: 20.0ms | ActiveRecord: 101.1ms | Allocations: 1096)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:29:49 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.5ms | Allocations: 1224)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:29:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.4ms | Allocations: 2548)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:29:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 1.6ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:29:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (11.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 20ms (Views: 8.0ms | ActiveRecord: 11.5ms | Allocations: 2548)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:29:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 1.0ms | Allocations: 2547)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:29:49 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.5ms | Allocations: 1224)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:29:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:29:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.7ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.7ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:29:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.7ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.7ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:29:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (2.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 2.3ms | Allocations: 2547)
+
+
