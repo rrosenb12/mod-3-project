@@ -38,7 +38,7 @@ const fetchQuestions = (quizNow) => {
     fetch('http://localhost:3000/api/v1/questions')
     .then(response => response.json())
     .then(questionsObj => {
-        questionsArray = questionsObj,
+        questionsArray = questionsObj
         getQuizQuestions(questionsArray, quizNow)})
 }
 
@@ -67,26 +67,26 @@ const renderQuestions = (question, questionAnswers) => {
     questionAnswers.forEach(answer => {
         const questionAnswer = document.createElement('p')
         questionAnswer.innerText = answer.answer_content
-        // questionAnswer.dataset.value = answer.value
+        questionAnswer.dataset.value = answer.value
         questionAnswer.className = 'the-questions-answer'
         questionLi.append(questionAnswer)
         
-        // questionAnswer.addEventListener('click', function(e){
-        //      addValue(e)
+        questionAnswer.addEventListener('click', function(e){
+             addValue(e)
                
             
-        // })
+        })
     })
     questionsContainer.append(questionLi)
     displayQuiz.append(questionsContainer)   
     
 }
+let valueArray = []
 
-// function addValue(e){
-//     const valueArray = []
-//     valueArray.push(e.target.value)
-//     console.log(valueArray)
-// }
+function addValue(e){
+    valueArray.push(e.target.dataset.value)
+    console.log(valueArray)
+}
 
 
 fetchQuizzes();
