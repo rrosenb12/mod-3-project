@@ -15,6 +15,7 @@ function renderQuizzes(quiz){
     const quizSpan = document.createElement('span')
     quizSpan.innerText = quiz.title
     quizSpan.dataset.id = quiz.id
+    quizSpan.className = 'quiz-span'
     quizzesContainer.append(quizSpan)
     quizSpan.addEventListener('click', function(e){
         renderQuiz(e, quiz)
