@@ -26,3 +26,7 @@
 .div4 { 
     grid-area: 3 / 5 / 11 / 7; 
 }
+
+.the-questions-answer {
+    background-color: greenyellow;
+}
