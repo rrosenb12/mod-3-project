@@ -24,21 +24,43 @@ Quiz.create(title: 'Which animal are you')
 Quiz.create(title: 'Which day of the week are you')
 
 puts 'creating results'
-15.times do 
-    Result.create(description: Faker::Quote.unique.matz, quiz_id: Quiz.all.sample.id)
-end
+Result.create(description:"Blue", quiz_id: 1)
+Result.create(description:"Red", quiz_id: 1)
+Result.create(description:"GreenYellow", quiz_id: 1)
+Result.create(description:"Violet", quiz_id: 1)
+
 
 puts 'creating questions'
-15.times do
-    Question.create(content: Faker::Quote.unique.yoda, quiz_id: Quiz.all.sample.id)
-end
+Question.create(content: "What's your preffered vacation?", quiz_id: 1)
+Question.create(content: "What letter does your name begin with?", quiz_id: 1)
+Question.create(content: "Which Hogwartz house are you with?", quiz_id: 1)
+Question.create(content: "What was favorite class in highschool?", quiz_id: 1)
 
-puts 'creating user results'
-10.times do
-    UserResult.create(user_id: User.all.sample.id, result_id: Result.all.sample.id)
-end
+
+# puts 'creating user results'
+# 10.times do
+#     UserResult.create(user_id: User.all.sample.id, result_id: Result.all.sample.id)
+# end
 
 puts 'creating answers'
-30.times do
-    Answer.create(question_id: Question.all.sample.id, answer_content: Faker::Superhero.unique.name, value: rand(1..4))
-end
+Answer.create(question_id:1, answer_content: "Forest", value:1)
+Answer.create(question_id:1, answer_content: "City", value:2)
+Answer.create(question_id:1, answer_content: "Desert", value:3)
+Answer.create(question_id:1, answer_content: "Ocean", value:4)
+
+Answer.create(question_id:2, answer_content: "a-e", value:1)
+Answer.create(question_id:2, answer_content: "f-l", value:2)
+Answer.create(question_id:2, answer_content: "m-s", value:3)
+Answer.create(question_id:2, answer_content: "t-z", value:4)
+
+Answer.create(question_id:3, answer_content: "Slitheren", value:1)
+Answer.create(question_id:3, answer_content: "Huffle Puff", value:2)
+Answer.create(question_id:3, answer_content: "Griffindor", value:3)
+Answer.create(question_id:3, answer_content: "Ravenclaw", value:4)
+
+Answer.create(question_id:4, answer_content: "Math", value:1)
+Answer.create(question_id:4, answer_content: "Science", value:2)
+Answer.create(question_id:4, answer_content: "History", value:3)
+Answer.create(question_id:4, answer_content: "Art", value:4)
+
+

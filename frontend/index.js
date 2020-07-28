@@ -67,13 +67,27 @@ const renderQuestions = (question, questionAnswers) => {
     questionAnswers.forEach(answer => {
         const questionAnswer = document.createElement('p')
         questionAnswer.innerText = answer.answer_content
+        // questionAnswer.dataset.value = answer.value
         questionAnswer.className = 'the-questions-answer'
         questionLi.append(questionAnswer)
+        
+        // questionAnswer.addEventListener('click', function(e){
+        //      addValue(e)
+               
+            
+        // })
     })
-    
     questionsContainer.append(questionLi)
-    displayQuiz.append(questionsContainer)
+    displayQuiz.append(questionsContainer)   
+    
 }
+
+// function addValue(e){
+//     const valueArray = []
+//     valueArray.push(e.target.value)
+//     console.log(valueArray)
+// }
+
 
 fetchQuizzes();
 

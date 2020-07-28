@@ -3467,3 +3467,1644 @@ Processing by Api::V1::AnswersController#index as */*
 Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.9ms | Allocations: 4061)
 
 
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 15:47:52 -0400
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (29.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 234ms (Views: 36.5ms | ActiveRecord: 169.3ms | Allocations: 6706)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 15:48:23 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (22.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 54ms (Views: 14.7ms | ActiveRecord: 28.5ms | Allocations: 6163)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 15:48:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (25.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 49ms (Views: 17.7ms | ActiveRecord: 28.8ms | Allocations: 7664)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 15:48:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 1.1ms | Allocations: 4078)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 15:48:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (2.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 2.3ms | Allocations: 4060)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 15:48:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 1.3ms | Allocations: 4060)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 15:48:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.7ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 1.7ms | Allocations: 4061)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 15:48:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.8ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.8ms | Allocations: 4061)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 15:48:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.6ms | Allocations: 4061)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 15:48:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.5ms | Allocations: 4060)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (11.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (6.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (27.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (1.9ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mQuiz Load (0.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Destroy (1.8ms)[0m  [1m[31mDELETE FROM "quizzes" WHERE "quizzes"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Destroy (0.3ms)[0m  [1m[31mDELETE FROM "quizzes" WHERE "quizzes"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Destroy (0.3ms)[0m  [1m[31mDELETE FROM "quizzes" WHERE "quizzes"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mResult Load (6.8ms)[0m  [1m[34mSELECT "results".* FROM "results"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.4ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (1.7ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.5ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.4ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 9]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (1.6ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 10]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 11]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 12]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 13]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 14]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mResult Destroy (1.8ms)[0m  [1m[31mDELETE FROM "results" WHERE "results"."id" = $1[0m  [["id", 15]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.4ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 1]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (1.2ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.5ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.4ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 9]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 10]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (1.2ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 11]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (1.7ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 12]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 13]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 14]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Destroy (0.3ms)[0m  [1m[31mDELETE FROM "questions" WHERE "questions"."id" = $1[0m  [["id", 15]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUserResult Load (0.6ms)[0m  [1m[34mSELECT "user_results".* FROM "user_results"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserResult Destroy (0.6ms)[0m  [1m[31mDELETE FROM "user_results" WHERE "user_results"."id" = $1[0m  [["id", 1]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserResult Destroy (0.4ms)[0m  [1m[31mDELETE FROM "user_results" WHERE "user_results"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "user_results" WHERE "user_results"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "user_results" WHERE "user_results"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserResult Destroy (0.4ms)[0m  [1m[31mDELETE FROM "user_results" WHERE "user_results"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "user_results" WHERE "user_results"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserResult Destroy (0.4ms)[0m  [1m[31mDELETE FROM "user_results" WHERE "user_results"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "user_results" WHERE "user_results"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserResult Destroy (0.4ms)[0m  [1m[31mDELETE FROM "user_results" WHERE "user_results"."id" = $1[0m  [["id", 9]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserResult Destroy (0.3ms)[0m  [1m[31mDELETE FROM "user_results" WHERE "user_results"."id" = $1[0m  [["id", 10]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (6.9ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.5ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.5ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 9]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 10]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 11]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.4ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 12]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 13]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 14]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (1.2ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 15]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 16]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 17]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 18]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 19]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.6ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 20]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (1.0ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 21]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 22]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 23]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 24]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 25]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.2ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 26]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 27]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.4ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 28]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 29]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAnswer Destroy (0.3ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = $1[0m  [["id", 30]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (27.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Salina Rohan JD"], ["created_at", "2020-07-28 20:05:49.405644"], ["updated_at", "2020-07-28 20:05:49.405644"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Bethann Armstrong"], ["created_at", "2020-07-28 20:05:49.438732"], ["updated_at", "2020-07-28 20:05:49.438732"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Winfred Ortiz"], ["created_at", "2020-07-28 20:05:49.443234"], ["updated_at", "2020-07-28 20:05:49.443234"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Alva Hahn"], ["created_at", "2020-07-28 20:05:49.447785"], ["updated_at", "2020-07-28 20:05:49.447785"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Demetrius Cronin"], ["created_at", "2020-07-28 20:05:49.452592"], ["updated_at", "2020-07-28 20:05:49.452592"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Create (0.4ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Which color are you"], ["created_at", "2020-07-28 20:05:49.458864"], ["updated_at", "2020-07-28 20:05:49.458864"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Create (0.5ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Which animal are you"], ["created_at", "2020-07-28 20:05:49.463256"], ["updated_at", "2020-07-28 20:05:49.463256"]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Create (0.3ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Which day of the week are you"], ["created_at", "2020-07-28 20:05:49.472759"], ["updated_at", "2020-07-28 20:05:49.472759"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (55.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.9ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (3.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (3.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (3.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (4.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (1.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mResult Load (0.6ms)[0m  [1m[34mSELECT "results".* FROM "results"[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 7]]
+  [1m[35m (11.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 9]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (1.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 10]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mQuiz Load (0.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Destroy (0.4ms)[0m  [1m[31mDELETE FROM "quizzes" WHERE "quizzes"."id" = $1[0m  [["id", 4]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Destroy (0.3ms)[0m  [1m[31mDELETE FROM "quizzes" WHERE "quizzes"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Destroy (0.3ms)[0m  [1m[31mDELETE FROM "quizzes" WHERE "quizzes"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mResult Load (0.5ms)[0m  [1m[34mSELECT "results".* FROM "results"[0m
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  [1m[36mUserResult Load (0.5ms)[0m  [1m[34mSELECT "user_results".* FROM "user_results"[0m
+  [1m[36mAnswer Load (2.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Cary Greenfelder"], ["created_at", "2020-07-28 20:06:42.190514"], ["updated_at", "2020-07-28 20:06:42.190514"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (6.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Genoveva Weissnat"], ["created_at", "2020-07-28 20:06:42.202138"], ["updated_at", "2020-07-28 20:06:42.202138"]]
+  [1m[35m (5.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Edison Stracke DDS"], ["created_at", "2020-07-28 20:06:42.218532"], ["updated_at", "2020-07-28 20:06:42.218532"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Fr. Emilia Boehm"], ["created_at", "2020-07-28 20:06:42.224811"], ["updated_at", "2020-07-28 20:06:42.224811"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Alberto Kunze DO"], ["created_at", "2020-07-28 20:06:42.229967"], ["updated_at", "2020-07-28 20:06:42.229967"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Create (1.1ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Which color are you"], ["created_at", "2020-07-28 20:06:42.234184"], ["updated_at", "2020-07-28 20:06:42.234184"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Create (1.5ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Which animal are you"], ["created_at", "2020-07-28 20:06:42.255539"], ["updated_at", "2020-07-28 20:06:42.255539"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Create (0.8ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Which day of the week are you"], ["created_at", "2020-07-28 20:06:42.264756"], ["updated_at", "2020-07-28 20:06:42.264756"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (10.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (1.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (1.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:07:08 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (0.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 32ms (Views: 12.5ms | ActiveRecord: 6.9ms | Allocations: 6703)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:12 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 2.9ms | ActiveRecord: 1.9ms | Allocations: 2249)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:13 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.3ms | Allocations: 835)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:13 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 833)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:13 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:13 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:17 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 833)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:17 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:17 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (1.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 1.7ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:18 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:20 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:21 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.3ms | Allocations: 816)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:21 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.4ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:29 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:07:29 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 815)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:08:23 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (91.9ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 108ms (Views: 15.4ms | ActiveRecord: 91.9ms | Allocations: 1096)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:33 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.5ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:33 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:34 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 0.5ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:34 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.4ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:34 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.4ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:35 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 817)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:35 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 816)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:36 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms | Allocations: 816)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:44 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:44 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 815)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:08:44 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms | Allocations: 815)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (24.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (84.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "personality_quiz_development"[0m
+  [1m[35m (91.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "personality_quiz_test"[0m
+  [1m[35m (325.4ms)[0m  [1m[35mCREATE DATABASE "personality_quiz_development" ENCODING = 'unicode'[0m
+  [1m[35m (182.0ms)[0m  [1m[35mCREATE DATABASE "personality_quiz_test" ENCODING = 'unicode'[0m
+  [1m[35m (41.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (26.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (13.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3710705380910443230)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateQuizzes (20200727210926)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (65.4ms)[0m  [1m[35mCREATE TABLE "quizzes" ("id" bigserial primary key, "title" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200727210926"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateUsers (20200727211500)
+  [1m[35m (64.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (24.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200727211500"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateResults (20200727211712)
+  [1m[35m (16.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (13.8ms)[0m  [1m[35mCREATE TABLE "results" ("id" bigserial primary key, "description" character varying, "quiz_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (49.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200727211712"]]
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateQuestions (20200727211812)
+  [1m[35m (13.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (17.1ms)[0m  [1m[35mCREATE TABLE "questions" ("id" bigserial primary key, "content" character varying, "quiz_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200727211812"]]
+  [1m[35m (12.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAnswers (20200727212034)
+  [1m[35m (6.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.4ms)[0m  [1m[35mCREATE TABLE "answers" ("id" bigserial primary key, "question_id" integer, "answer_content" character varying, "value" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200727212034"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateUserResults (20200727212138)
+  [1m[35m (9.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "user_results" ("id" bigserial primary key, "user_id" integer, "result_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200727212138"]]
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (3.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-07-28 20:10:12.913030"], ["updated_at", "2020-07-28 20:10:12.913030"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT pg_advisory_unlock(3710705380910443230)[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mQuiz Load (2.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  [1m[36mResult Load (3.9ms)[0m  [1m[34mSELECT "results".* FROM "results"[0m
+  [1m[36mQuestion Load (2.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  [1m[36mUserResult Load (2.3ms)[0m  [1m[34mSELECT "user_results".* FROM "user_results"[0m
+  [1m[36mAnswer Load (2.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Dannie Rogahn"], ["created_at", "2020-07-28 20:10:20.595196"], ["updated_at", "2020-07-28 20:10:20.595196"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Shizuko Boyer LLD"], ["created_at", "2020-07-28 20:10:20.607763"], ["updated_at", "2020-07-28 20:10:20.607763"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Jarrod Kuphal"], ["created_at", "2020-07-28 20:10:20.614094"], ["updated_at", "2020-07-28 20:10:20.614094"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Amb. Ronnie Kerluke"], ["created_at", "2020-07-28 20:10:20.618739"], ["updated_at", "2020-07-28 20:10:20.618739"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Katy Leffler"], ["created_at", "2020-07-28 20:10:20.623137"], ["updated_at", "2020-07-28 20:10:20.623137"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Create (2.4ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Which color are you"], ["created_at", "2020-07-28 20:10:20.650372"], ["updated_at", "2020-07-28 20:10:20.650372"]]
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Create (0.3ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Which animal are you"], ["created_at", "2020-07-28 20:10:20.672441"], ["updated_at", "2020-07-28 20:10:20.672441"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Create (0.9ms)[0m  [1m[32mINSERT INTO "quizzes" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Which day of the week are you"], ["created_at", "2020-07-28 20:10:20.680577"], ["updated_at", "2020-07-28 20:10:20.680577"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mResult Create (1.1ms)[0m  [1m[32mINSERT INTO "results" ("description", "quiz_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["description", "Blue"], ["quiz_id", 1], ["created_at", "2020-07-28 20:10:20.774197"], ["updated_at", "2020-07-28 20:10:20.774197"]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mResult Create (0.4ms)[0m  [1m[32mINSERT INTO "results" ("description", "quiz_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["description", "Red"], ["quiz_id", 1], ["created_at", "2020-07-28 20:10:20.788613"], ["updated_at", "2020-07-28 20:10:20.788613"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mResult Create (0.4ms)[0m  [1m[32mINSERT INTO "results" ("description", "quiz_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["description", "GreenYellow"], ["quiz_id", 1], ["created_at", "2020-07-28 20:10:20.798870"], ["updated_at", "2020-07-28 20:10:20.798870"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mResult Create (0.4ms)[0m  [1m[32mINSERT INTO "results" ("description", "quiz_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["description", "Violet"], ["quiz_id", 1], ["created_at", "2020-07-28 20:10:20.805565"], ["updated_at", "2020-07-28 20:10:20.805565"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mQuestion Create (1.3ms)[0m  [1m[32mINSERT INTO "questions" ("content", "quiz_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "What's your preffered vacation?"], ["quiz_id", 1], ["created_at", "2020-07-28 20:10:20.837094"], ["updated_at", "2020-07-28 20:10:20.837094"]]
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (2.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mQuestion Create (7.0ms)[0m  [1m[32mINSERT INTO "questions" ("content", "quiz_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "What letter does your name begin with?"], ["quiz_id", 1], ["created_at", "2020-07-28 20:10:20.856096"], ["updated_at", "2020-07-28 20:10:20.856096"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mQuestion Create (0.4ms)[0m  [1m[32mINSERT INTO "questions" ("content", "quiz_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Which Hogwartz house are you with?"], ["quiz_id", 1], ["created_at", "2020-07-28 20:10:20.886285"], ["updated_at", "2020-07-28 20:10:20.886285"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mQuestion Create (0.3ms)[0m  [1m[32mINSERT INTO "questions" ("content", "quiz_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "What was favorite class in highschool?"], ["quiz_id", 1], ["created_at", "2020-07-28 20:10:20.899975"], ["updated_at", "2020-07-28 20:10:20.899975"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Create (1.1ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 1], ["answer_content", "Forest"], ["value", 1], ["created_at", "2020-07-28 20:10:20.955433"], ["updated_at", "2020-07-28 20:10:20.955433"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 1], ["answer_content", "City"], ["value", 2], ["created_at", "2020-07-28 20:10:20.983301"], ["updated_at", "2020-07-28 20:10:20.983301"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 1], ["answer_content", "Desert"], ["value", 3], ["created_at", "2020-07-28 20:10:20.991014"], ["updated_at", "2020-07-28 20:10:20.991014"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 1], ["answer_content", "Ocean"], ["value", 4], ["created_at", "2020-07-28 20:10:20.999318"], ["updated_at", "2020-07-28 20:10:20.999318"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 2], ["answer_content", "a-e"], ["value", 1], ["created_at", "2020-07-28 20:10:21.007020"], ["updated_at", "2020-07-28 20:10:21.007020"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 2], ["answer_content", "f-l"], ["value", 2], ["created_at", "2020-07-28 20:10:21.015778"], ["updated_at", "2020-07-28 20:10:21.015778"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 2], ["answer_content", "m-s"], ["value", 3], ["created_at", "2020-07-28 20:10:21.022202"], ["updated_at", "2020-07-28 20:10:21.022202"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.8ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 2], ["answer_content", "t-z"], ["value", 4], ["created_at", "2020-07-28 20:10:21.032038"], ["updated_at", "2020-07-28 20:10:21.032038"]]
+  [1m[35m (15.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 3], ["answer_content", "Slitheren"], ["value", 1], ["created_at", "2020-07-28 20:10:21.066118"], ["updated_at", "2020-07-28 20:10:21.066118"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 3], ["answer_content", "Huffle Puff"], ["value", 2], ["created_at", "2020-07-28 20:10:21.079406"], ["updated_at", "2020-07-28 20:10:21.079406"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 3], ["answer_content", "Griffindor"], ["value", 3], ["created_at", "2020-07-28 20:10:21.087246"], ["updated_at", "2020-07-28 20:10:21.087246"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.5ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 3], ["answer_content", "Ravenclaw"], ["value", 4], ["created_at", "2020-07-28 20:10:21.100568"], ["updated_at", "2020-07-28 20:10:21.100568"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 4], ["answer_content", "Math"], ["value", 1], ["created_at", "2020-07-28 20:10:21.108748"], ["updated_at", "2020-07-28 20:10:21.108748"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 4], ["answer_content", "Science"], ["value", 2], ["created_at", "2020-07-28 20:10:21.117595"], ["updated_at", "2020-07-28 20:10:21.117595"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 4], ["answer_content", "History"], ["value", 3], ["created_at", "2020-07-28 20:10:21.123706"], ["updated_at", "2020-07-28 20:10:21.123706"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "answer_content", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["question_id", 4], ["answer_content", "Art"], ["value", 4], ["created_at", "2020-07-28 20:10:21.137594"], ["updated_at", "2020-07-28 20:10:21.137594"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:10:32 -0400
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (0.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 91ms (Views: 33.5ms | ActiveRecord: 21.1ms | Allocations: 6704)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:10:42 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 18ms (Views: 9.0ms | ActiveRecord: 3.6ms | Allocations: 5042)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:10:42 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 1243)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:10:42 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.3ms | Allocations: 1225)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:10:43 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:10:43 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.5ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:10:45 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1242)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:10:45 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:10:45 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:10:48 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1243)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:10:48 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.7ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 29ms (Views: 21.8ms | ActiveRecord: 4.4ms | Allocations: 6186)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:10:48 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.6ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:10:48 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.4ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:10:48 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (7.0ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 30ms (Views: 21.6ms | ActiveRecord: 7.0ms | Allocations: 2547)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:10:49 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (1.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 1.2ms | Allocations: 1224)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:10:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.3ms | Allocations: 2548)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:10:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 1.1ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:10:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (2.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 6.1ms | ActiveRecord: 2.3ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:10:49 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (2.7ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 6.5ms | ActiveRecord: 2.7ms | Allocations: 2547)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:17:21 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (14.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 64ms (Views: 34.0ms | ActiveRecord: 14.0ms | Allocations: 1171)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:17:23 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.6ms | Allocations: 1245)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:17:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.5ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:17:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.4ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:17:23 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (2.0ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 2.0ms | Allocations: 2547)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-28 16:17:24 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.6ms | Allocations: 2547)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:18:57 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (2.9ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 11.3ms | ActiveRecord: 2.9ms | Allocations: 1096)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:00 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:04 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:04 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:04 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:05 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (1.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 1.2ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:05 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:06 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:06 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:06 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:07 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:19:10 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (1.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 1.2ms | Allocations: 1096)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:12 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.5ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:27 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:27 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:27 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:27 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:28 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:28 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:28 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:45 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:45 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:45 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:46 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:19:46 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:19:47 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (1.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 1.4ms | Allocations: 1096)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:20:28 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.4ms | Allocations: 1096)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:29 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (2.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 11.6ms | ActiveRecord: 2.1ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:30 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:30 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:30 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:31 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:31 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 1225)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:31 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:31 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:32 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (1.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.8ms | Allocations: 1225)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:32 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:32 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:33 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.3ms | Allocations: 1225)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:35 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:35 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:20:35 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1225)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:21:37 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.4ms | Allocations: 1096)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:38 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:39 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.5ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:39 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:39 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:39 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:39 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:40 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.0ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:41 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:41 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.5ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:41 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:41 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:21:42 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:22:40 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:22:40 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:22:40 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:22:40 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:22:42 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (0.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.6ms | Allocations: 1096)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:14 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.5ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:14 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:15 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:15 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:15 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:16 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:16 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:16 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:17 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:17 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:17 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:18 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:18 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:18 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (2.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 2.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:19 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:19 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:19 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:24:20 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1225)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-28 16:25:16 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (0.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.6ms | Allocations: 1096)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:25:17 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:25:18 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.8ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:25:18 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.5ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:25:18 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:25:19 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:25:19 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:25:20 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-28 16:25:20 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 1224)
+
+
