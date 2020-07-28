@@ -23,13 +23,6 @@ ActiveRecord::Schema.define(version: 2020_07_27_212138) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "api_results", force: :cascade do |t|
-    t.integer "user_id"
-    t.integer "result_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "questions", force: :cascade do |t|
     t.string "content"
     t.integer "quiz_id"
@@ -46,6 +39,13 @@ ActiveRecord::Schema.define(version: 2020_07_27_212138) do
   create_table "results", force: :cascade do |t|
     t.string "description"
     t.integer "quiz_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "user_results", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "result_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
