@@ -18,7 +18,7 @@ const renderQuizzes = (quiz) => {
     quizSpan.dataset.id = quiz.id
     quizSpan.className = 'quiz-span'
     quizzesContainer.append(quizSpan)
-    quizSpan.addEventListener('click', function(e){
+    quizSpan.addEventListener('click', (e) => {
         getQuiz(e)
     })
 }
