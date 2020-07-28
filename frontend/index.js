@@ -43,25 +43,23 @@ const fetchQuestions = (quizNow) => {
         fetchAnswers(questionsArray, quizNow)})
 }
 
-// const getQuizQuestions = (questionsArray, quizNow) => {
-//     const quizQuestions = questionsArray.filter(question => question.quiz_id == quizNow.id)
-//     quizQuestions.forEach(question => {
-//         fetchAnswers(question)
-//     })
-// }
-
 const fetchAnswers = (questionsArray, quizNow) => {
     fetch('http://localhost:3000/api/v1/answers')
     .then(response => response.json())
-    .then(answersArray => getAnswers(questionsArray, quizNow, answersArray))
+    .then(answersArray => getQuestions(questionsArray, quizNow, answersArray))
 }
 
-const getAnswers = (questionsArray, quizNow, answersArray) => {
+const getQuestions = (questionsArray, quizNow, answersArray) => {
     const quizQuestions = questionsArray.filter(question => question.quiz_id == quizNow.id)
+    getAnswers(quizQuestions, answersArray)
+
+}
+
+const getAnswers = (quizQuestions, answersArray) => {
     quizQuestions.forEach(question => {
         const questionAnswers = answersArray.filter(answer => answer.question_id == question.id)
-    renderQuestions(question, questionAnswers)
-    })    
+        renderQuestions(question, questionAnswers)
+        })
 }
 
 const renderQuestions = (question, questionAnswers) => {
@@ -75,12 +73,8 @@ const renderQuestions = (question, questionAnswers) => {
         questionAnswer.className = 'the-questions-answer'
         questionLi.append(questionAnswer)
         
-        
-
         questionAnswer.addEventListener('click', function(e){
-             addValue(e)
-               
-            
+             addValue(e)            
         })
     })
     const submitButton = document.createElement('button')
@@ -90,6 +84,7 @@ const renderQuestions = (question, questionAnswers) => {
 
     
 }
+
 let valueArray = []
 
 function addValue(e){
