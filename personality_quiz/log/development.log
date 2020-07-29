@@ -15586,3 +15586,2397 @@ Processing by Api::V1::ResultsController#show as */*
 Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 723)
 
 
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:38:05 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (1.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 29ms (Views: 24.8ms | ActiveRecord: 1.0ms | Allocations: 1215)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:38:10 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.7ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:38:10 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.6ms | Allocations: 6007)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:38:31 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.3ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:38:31 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:39:31 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (1.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 1.4ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:39:32 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:39:32 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.4ms | Allocations: 6007)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:39:53 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (1.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 1.6ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:39:54 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 2041)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:39:54 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.5ms | Allocations: 6007)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:40:52 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (0.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.5ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:40:53 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.9ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.9ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:40:53 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.5ms | Allocations: 6007)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:41:21 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.5ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:41:21 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:41:56 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.4ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:41:57 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:41:57 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:44:10 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.5ms | Allocations: 2041)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:44:10 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:45:33 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (26.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 33ms (Views: 5.0ms | ActiveRecord: 26.6ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:45:34 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:45:34 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started GET "/api/v1/results/1" for ::1 at 2020-07-29 16:45:39 -0400
+Processing by Api::V1::ResultsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mResult Load (1.1ms)[0m  [1m[34mSELECT "results".* FROM "results" WHERE "results"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/results_controller.rb:10:in `show'
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 2.0ms | Allocations: 750)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:40 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>66, "id"=>"1", "quiz"=>{"likes"=>66}}
+  [1m[36mQuiz Load (2.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (0.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 66], ["updated_at", "2020-07-29 20:45:40.584802"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (9.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 31ms (Views: 0.9ms | ActiveRecord: 12.5ms | Allocations: 3125)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:41 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>67, "id"=>"1", "quiz"=>{"likes"=>67}}
+  [1m[36mQuiz Load (10.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (0.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 67], ["updated_at", "2020-07-29 20:45:41.423369"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (11.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 35ms (Views: 0.9ms | ActiveRecord: 22.7ms | Allocations: 3120)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:41 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>68, "id"=>"1", "quiz"=>{"likes"=>68}}
+  [1m[36mQuiz Load (1.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (5.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 68], ["updated_at", "2020-07-29 20:45:41.577684"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (11.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 32ms (Views: 1.0ms | ActiveRecord: 19.2ms | Allocations: 3120)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:41 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>69, "id"=>"1", "quiz"=>{"likes"=>69}}
+  [1m[36mQuiz Load (3.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (4.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (1.3ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 69], ["updated_at", "2020-07-29 20:45:41.763793"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (8.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 37ms (Views: 0.8ms | ActiveRecord: 18.4ms | Allocations: 3120)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:45:42 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.5ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:45:42 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 1.4ms | Allocations: 6008)
+
+
+Started GET "/api/v1/results/10" for ::1 at 2020-07-29 16:45:48 -0400
+Processing by Api::V1::ResultsController#show as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mResult Load (0.5ms)[0m  [1m[34mSELECT "results".* FROM "results" WHERE "results"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/results_controller.rb:10:in `show'
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.5ms | Allocations: 723)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:45:50 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.4ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:45:50 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:54 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:54 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:54 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>70, "id"=>"1", "quiz"=>{"likes"=>70}}
+  [1m[36mQuiz Load (3.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (7.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (5.3ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 70], ["updated_at", "2020-07-29 20:45:54.803962"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 33ms (Views: 0.9ms | ActiveRecord: 17.2ms | Allocations: 3120)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:54 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:54 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:54 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>71, "id"=>"1", "quiz"=>{"likes"=>71}}
+  [1m[36mQuiz Load (3.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (17.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (11.9ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 71], ["updated_at", "2020-07-29 20:45:54.916932"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (4.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 57ms (Views: 1.1ms | ActiveRecord: 36.7ms | Allocations: 3120)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:54 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>72, "id"=>"1", "quiz"=>{"likes"=>72}}
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (9.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (26.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 72], ["updated_at", "2020-07-29 20:45:55.003471"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (66.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 126ms (Views: 0.5ms | ActiveRecord: 103.4ms | Allocations: 3275)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:55 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>71, "id"=>"2", "quiz"=>{"likes"=>71}}
+  [1m[36mQuiz Load (2.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (10.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>69, "id"=>"2", "quiz"=>{"likes"=>69}}
+  [1m[36mQuiz Load (0.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Update (99.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 71], ["updated_at", "2020-07-29 20:45:55.158062"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (24.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (39.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 173ms (Views: 0.3ms | ActiveRecord: 152.4ms | Allocations: 9976)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:55 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>73, "id"=>"1", "quiz"=>{"likes"=>73}}
+  [1m[36mQuiz Load (1.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (33.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 73], ["updated_at", "2020-07-29 20:45:55.365903"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (111.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 69], ["updated_at", "2020-07-29 20:45:55.266495"], ["id", 2]]
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>70, "id"=>"3", "quiz"=>{"likes"=>70}}
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>69, "id"=>"3", "quiz"=>{"likes"=>69}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>70, "id"=>"2", "quiz"=>{"likes"=>70}}
+  [1m[36mQuiz Load (0.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (33.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (5.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (38.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 102ms (Views: 0.8ms | ActiveRecord: 69.2ms | Allocations: 9229)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (1.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 219ms (Views: 0.4ms | ActiveRecord: 175.6ms | Allocations: 18525)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (10.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:55 -0400
+  [1m[35m (17.7ms)[0m  [1m[35mBEGIN[0m
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:55 -0400
+  [1m[36mQuiz Update (2.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 70], ["updated_at", "2020-07-29 20:45:55.474631"], ["id", 2]]
+  [1m[36mQuiz Update (12.0ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 69], ["updated_at", "2020-07-29 20:45:55.441883"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  Parameters: {"likes"=>72, "id"=>"3", "quiz"=>{"likes"=>72}}
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 88ms (Views: 0.3ms | ActiveRecord: 30.2ms | Allocations: 10508)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>72, "id"=>"2", "quiz"=>{"likes"=>72}}
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (7.0ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 70], ["updated_at", "2020-07-29 20:45:55.471613"], ["id", 3]]
+  [1m[36mQuiz Load (5.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:55 -0400
+Completed 200 OK in 120ms (Views: 1.5ms | ActiveRecord: 19.0ms | Allocations: 13787)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:55 -0400
+  [1m[36mQuiz Load (26.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (25.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>73, "id"=>"3", "quiz"=>{"likes"=>73}}
+  [1m[35m (16.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>74, "id"=>"1", "quiz"=>{"likes"=>74}}
+  [1m[36mQuiz Load (13.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Update (25.2ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 72], ["updated_at", "2020-07-29 20:45:55.572735"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (24.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (26.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (4.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (78.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (17.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (53.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 72], ["updated_at", "2020-07-29 20:45:55.557524"], ["id", 3]]
+Completed 200 OK in 226ms (Views: 1.6ms | ActiveRecord: 119.3ms | Allocations: 25733)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (5.2ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 74], ["updated_at", "2020-07-29 20:45:55.629528"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:55 -0400
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 113ms (Views: 0.7ms | ActiveRecord: 86.2ms | Allocations: 13738)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:55 -0400
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 70ms (Views: 0.6ms | ActiveRecord: 41.3ms | Allocations: 8995)
+
+
+  [1m[35m (10.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 163ms (Views: 5.6ms | ActiveRecord: 94.8ms | Allocations: 18822)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:55 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>73, "id"=>"2", "quiz"=>{"likes"=>73}}
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:55 -0400
+  [1m[36mQuiz Update (55.0ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 73], ["updated_at", "2020-07-29 20:45:55.605126"], ["id", 3]]
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>71, "id"=>"3", "quiz"=>{"likes"=>71}}
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (7.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>74, "id"=>"2", "quiz"=>{"likes"=>74}}
+  [1m[36mQuiz Load (3.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 131ms (Views: 0.5ms | ActiveRecord: 102.4ms | Allocations: 17114)
+
+
+  [1m[35m (2.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (4.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Processing by Api::V1::QuizzesController#update as */*
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  Parameters: {"likes"=>74, "id"=>"3", "quiz"=>{"likes"=>74}}
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Update (1.3ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 73], ["updated_at", "2020-07-29 20:45:55.713516"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (2.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Update (0.9ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 71], ["updated_at", "2020-07-29 20:45:55.725869"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mQuiz Update (5.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 74], ["updated_at", "2020-07-29 20:45:55.726763"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 47ms (Views: 1.1ms | ActiveRecord: 17.9ms | Allocations: 13429)
+
+
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (4.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 39ms (Views: 0.6ms | ActiveRecord: 14.9ms | Allocations: 10983)
+
+
+  [1m[36mQuiz Update (17.1ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 74], ["updated_at", "2020-07-29 20:45:55.733843"], ["id", 3]]
+Completed 200 OK in 58ms (Views: 7.4ms | ActiveRecord: 13.7ms | Allocations: 14058)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (3.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 40ms (Views: 0.3ms | ActiveRecord: 24.6ms | Allocations: 9705)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:55 -0400
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:55 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:55 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>75, "id"=>"3", "quiz"=>{"likes"=>75}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>76, "id"=>"1", "quiz"=>{"likes"=>76}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>75, "id"=>"2", "quiz"=>{"likes"=>75}}
+  [1m[36mQuiz Load (19.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (14.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQuiz Load (14.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (2.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (4.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (6.2ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 75], ["updated_at", "2020-07-29 20:45:55.883685"], ["id", 3]]
+  [1m[36mQuiz Update (1.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 75], ["updated_at", "2020-07-29 20:45:55.889050"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (1.9ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 76], ["updated_at", "2020-07-29 20:45:55.894015"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (12.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 61ms (Views: 0.7ms | ActiveRecord: 40.3ms | Allocations: 9227)
+
+
+  [1m[35m (20.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 65ms (Views: 0.5ms | ActiveRecord: 41.8ms | Allocations: 9123)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:55 -0400
+  [1m[35m (24.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 87ms (Views: 0.4ms | ActiveRecord: 42.2ms | Allocations: 10637)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>75, "id"=>"1", "quiz"=>{"likes"=>75}}
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:55 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:55 -0400
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:55 -0400
+  [1m[36mQuiz Load (102.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>76, "id"=>"3", "quiz"=>{"likes"=>76}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>76, "id"=>"2", "quiz"=>{"likes"=>76}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>77, "id"=>"1", "quiz"=>{"likes"=>77}}
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:56 -0400
+  [1m[35m (144.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (146.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (118.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (101.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Processing by Api::V1::QuizzesController#update as */*
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  Parameters: {"likes"=>78, "id"=>"1", "quiz"=>{"likes"=>78}}
+  [1m[36mQuiz Update (49.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 75], ["updated_at", "2020-07-29 20:45:56.069615"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (46.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (51.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (34.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (111.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Update (90.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 76], ["updated_at", "2020-07-29 20:45:56.225288"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (103.1ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 76], ["updated_at", "2020-07-29 20:45:56.227901"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (119.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (49.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 78], ["updated_at", "2020-07-29 20:45:56.363685"], ["id", 1]]
+  [1m[35m (164.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 475ms (Views: 0.5ms | ActiveRecord: 446.8ms | Allocations: 13597)
+
+
+  [1m[35m (267.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 588ms (Views: 2.0ms | ActiveRecord: 563.9ms | Allocations: 17135)
+
+
+  [1m[35m (145.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 458ms (Views: 0.5ms | ActiveRecord: 417.2ms | Allocations: 14812)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:56 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:56 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:56 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>79, "id"=>"1", "quiz"=>{"likes"=>79}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>77, "id"=>"2", "quiz"=>{"likes"=>77}}
+Processing by Api::V1::QuizzesController#update as */*
+  [1m[35m (42.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 340ms (Views: 0.3ms | ActiveRecord: 323.1ms | Allocations: 14057)
+
+
+  [1m[36mQuiz Update (300.1ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 77], ["updated_at", "2020-07-29 20:45:56.235018"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  Parameters: {"likes"=>78, "id"=>"3", "quiz"=>{"likes"=>78}}
+  [1m[36mQuiz Load (18.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:56 -0400
+  [1m[36mQuiz Load (23.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (7.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (27.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 497ms (Views: 0.4ms | ActiveRecord: 463.8ms | Allocations: 23468)
+
+
+  [1m[36mQuiz Load (23.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>78, "id"=>"2", "quiz"=>{"likes"=>78}}
+  [1m[36mQuiz Update (3.0ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 77], ["updated_at", "2020-07-29 20:45:56.605820"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (7.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (0.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:56 -0400
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  [1m[35m (18.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 66ms (Views: 0.7ms | ActiveRecord: 47.9ms | Allocations: 12218)
+
+
+  Parameters: {"likes"=>77, "id"=>"3", "quiz"=>{"likes"=>77}}
+  [1m[35m (6.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:56 -0400
+  [1m[36mQuiz Update (117.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 79], ["updated_at", "2020-07-29 20:45:56.613052"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (108.0ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 78], ["updated_at", "2020-07-29 20:45:56.640171"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>80, "id"=>"1", "quiz"=>{"likes"=>80}}
+  [1m[36mQuiz Update (119.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 78], ["updated_at", "2020-07-29 20:45:56.629853"], ["id", 3]]
+  [1m[36mQuiz Load (116.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (9.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mQuiz Load (14.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 203ms (Views: 0.6ms | ActiveRecord: 157.6ms | Allocations: 18942)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (18.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (6.8ms)[0m  [1m[35mBEGIN[0m
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:56 -0400
+Completed 200 OK in 163ms (Views: 2.1ms | ActiveRecord: 134.3ms | Allocations: 11862)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:56 -0400
+  [1m[35m (39.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (66.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 259ms (Views: 0.8ms | ActiveRecord: 210.7ms | Allocations: 21464)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>79, "id"=>"3", "quiz"=>{"likes"=>79}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>81, "id"=>"1", "quiz"=>{"likes"=>81}}
+  [1m[36mQuiz Update (53.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 77], ["updated_at", "2020-07-29 20:45:56.777247"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (12.0ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 80], ["updated_at", "2020-07-29 20:45:56.788788"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (7.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (5.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (8.4ms)[0m  [1m[35mCOMMIT[0m
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:56 -0400
+  [1m[35m (2.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (5.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 122ms (Views: 0.5ms | ActiveRecord: 70.7ms | Allocations: 14927)
+
+
+Completed 200 OK in 233ms (Views: 0.6ms | ActiveRecord: 185.3ms | Allocations: 17619)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>80, "id"=>"3", "quiz"=>{"likes"=>80}}
+  [1m[36mQuiz Update (4.7ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 81], ["updated_at", "2020-07-29 20:45:56.869941"], ["id", 1]]
+  [1m[35m (7.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:56 -0400
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:45:56 -0400
+  [1m[36mQuiz Update (2.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 79], ["updated_at", "2020-07-29 20:45:56.877632"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>80, "id"=>"2", "quiz"=>{"likes"=>80}}
+  [1m[36mQuiz Load (10.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mQuiz Load (1.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (2.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (10.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 57ms (Views: 0.5ms | ActiveRecord: 25.0ms | Allocations: 13370)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>82, "id"=>"1", "quiz"=>{"likes"=>82}}
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:45:56 -0400
+  [1m[35m (22.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (32.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mQuiz Load (12.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (17.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 80], ["updated_at", "2020-07-29 20:45:56.907002"], ["id", 2]]
+Completed 200 OK in 82ms (Views: 1.3ms | ActiveRecord: 47.4ms | Allocations: 16142)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:56 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>81, "id"=>"3", "quiz"=>{"likes"=>81}}
+  [1m[36mQuiz Update (25.0ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 80], ["updated_at", "2020-07-29 20:45:56.908604"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (23.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (5.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Update (3.7ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 82], ["updated_at", "2020-07-29 20:45:56.936762"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (6.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 77ms (Views: 0.3ms | ActiveRecord: 65.3ms | Allocations: 16369)
+
+
+  [1m[35m (20.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>79, "id"=>"2", "quiz"=>{"likes"=>79}}
+Completed 200 OK in 81ms (Views: 5.0ms | ActiveRecord: 40.8ms | Allocations: 13975)
+
+
+  [1m[35m (27.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (12.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Update (5.9ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 81], ["updated_at", "2020-07-29 20:45:56.964900"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (2.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (41.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 89ms (Views: 0.3ms | ActiveRecord: 80.8ms | Allocations: 14085)
+
+
+  [1m[36mQuiz Update (7.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 79], ["updated_at", "2020-07-29 20:45:56.999432"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (15.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 64ms (Views: 0.7ms | ActiveRecord: 54.7ms | Allocations: 11179)
+
+
+  [1m[35m (7.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 30.3ms | Allocations: 6763)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:45:57 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>81, "id"=>"2", "quiz"=>{"likes"=>81}}
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (1.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 81], ["updated_at", "2020-07-29 20:45:57.185912"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 2.6ms | Allocations: 3131)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:46:02 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.9ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.9ms | Allocations: 2041)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:46:02 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.6ms | Allocations: 6007)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:46:05 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:46:05 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:10 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:10 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:10 -0400
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:46:10 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:10 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>69, "id"=>"3", "quiz"=>{"likes"=>69}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>82, "id"=>"3", "quiz"=>{"likes"=>82}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>83, "id"=>"1", "quiz"=>{"likes"=>83}}
+  [1m[36mQuiz Load (38.9ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>82, "id"=>"2", "quiz"=>{"likes"=>82}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>69, "id"=>"2", "quiz"=>{"likes"=>69}}
+  [1m[36mQuiz Load (115.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (103.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (3.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (51.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (57.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (59.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (45.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (7.9ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 69], ["updated_at", "2020-07-29 20:46:10.344659"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (33.7ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 83], ["updated_at", "2020-07-29 20:46:10.320992"], ["id", 1]]
+  [1m[35m (18.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (26.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (16.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 216ms (Views: 0.4ms | ActiveRecord: 185.2ms | Allocations: 12966)
+
+
+  [1m[36mQuiz Update (7.7ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 82], ["updated_at", "2020-07-29 20:46:10.383409"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (72.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 82], ["updated_at", "2020-07-29 20:46:10.362255"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (18.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 169ms (Views: 0.6ms | ActiveRecord: 142.6ms | Allocations: 14625)
+
+
+  [1m[35m (9.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 126ms (Views: 0.4ms | ActiveRecord: 101.1ms | Allocations: 13888)
+
+
+  [1m[36mQuiz Update (23.3ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 69], ["updated_at", "2020-07-29 20:46:10.392321"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (5.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 209ms (Views: 1.4ms | ActiveRecord: 183.8ms | Allocations: 18083)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:10 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:10 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:10 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:10 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>83, "id"=>"2", "quiz"=>{"likes"=>83}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>83, "id"=>"3", "quiz"=>{"likes"=>83}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>70, "id"=>"3", "quiz"=>{"likes"=>70}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>70, "id"=>"2", "quiz"=>{"likes"=>70}}
+  [1m[36mQuiz Load (63.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (118.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 248ms (Views: 0.5ms | ActiveRecord: 219.0ms | Allocations: 21017)
+
+
+  [1m[36mQuiz Load (64.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:10 -0400
+  [1m[36mQuiz Load (16.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (2.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (12.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (21.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>84, "id"=>"2", "quiz"=>{"likes"=>84}}
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (37.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (44.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (63.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 83], ["updated_at", "2020-07-29 20:46:10.571568"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (65.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Update (93.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 83], ["updated_at", "2020-07-29 20:46:10.581329"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (22.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Update (48.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 70], ["updated_at", "2020-07-29 20:46:10.607511"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (62.2ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 70], ["updated_at", "2020-07-29 20:46:10.605154"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (40.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 208ms (Views: 1.8ms | ActiveRecord: 164.9ms | Allocations: 15032)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 220ms (Views: 0.6ms | ActiveRecord: 179.6ms | Allocations: 16294)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:46:10 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:10 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>85, "id"=>"1", "quiz"=>{"likes"=>85}}
+  [1m[35m (68.8ms)[0m  [1m[35mCOMMIT[0m
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>84, "id"=>"3", "quiz"=>{"likes"=>84}}
+  [1m[35m (59.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 233ms (Views: 0.3ms | ActiveRecord: 180.4ms | Allocations: 18619)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (70.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 84], ["updated_at", "2020-07-29 20:46:10.682976"], ["id", 2]]
+  [1m[36mQuiz Load (6.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 229ms (Views: 0.5ms | ActiveRecord: 178.5ms | Allocations: 18320)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:10 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:10 -0400
+  [1m[36mQuiz Load (28.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (14.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (17.1ms)[0m  [1m[35mCOMMIT[0m
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>71, "id"=>"3", "quiz"=>{"likes"=>71}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>71, "id"=>"2", "quiz"=>{"likes"=>71}}
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 236ms (Views: 3.1ms | ActiveRecord: 175.8ms | Allocations: 18036)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:46:10 -0400
+  [1m[36mQuiz Load (103.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Update (100.7ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 84], ["updated_at", "2020-07-29 20:46:10.817502"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (100.3ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 85], ["updated_at", "2020-07-29 20:46:10.803221"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (128.9ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>86, "id"=>"1", "quiz"=>{"likes"=>86}}
+  [1m[35m (34.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (44.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (33.9ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Update (2.1ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 71], ["updated_at", "2020-07-29 20:46:10.966899"], ["id", 3]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (55.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (50.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (1.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 86], ["updated_at", "2020-07-29 20:46:11.017435"], ["id", 1]]
+Completed 200 OK in 199ms (Views: 1.6ms | ActiveRecord: 177.6ms | Allocations: 13038)
+
+
+  [1m[36mQuiz Update (31.0ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 71], ["updated_at", "2020-07-29 20:46:10.944173"], ["id", 2]]
+Completed 200 OK in 248ms (Views: 0.4ms | ActiveRecord: 172.3ms | Allocations: 20272)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 242ms (Views: 0.5ms | ActiveRecord: 186.1ms | Allocations: 19284)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:11 -0400
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 209ms (Views: 0.5ms | ActiveRecord: 169.5ms | Allocations: 15865)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:11 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:11 -0400
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:11 -0400
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 75ms (Views: 0.8ms | ActiveRecord: 40.4ms | Allocations: 11028)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>85, "id"=>"2", "quiz"=>{"likes"=>85}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>72, "id"=>"2", "quiz"=>{"likes"=>72}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>72, "id"=>"3", "quiz"=>{"likes"=>72}}
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:46:11 -0400
+  [1m[36mQuiz Load (1.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (4.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>85, "id"=>"3", "quiz"=>{"likes"=>85}}
+  [1m[36mQuiz Load (10.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (12.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>87, "id"=>"1", "quiz"=>{"likes"=>87}}
+  [1m[35m (19.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (21.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (15.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (11.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 72], ["updated_at", "2020-07-29 20:46:11.103748"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (40.3ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 85], ["updated_at", "2020-07-29 20:46:11.088634"], ["id", 2]]
+  [1m[36mQuiz Load (33.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (29.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (12.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (14.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 85], ["updated_at", "2020-07-29 20:46:11.115883"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (29.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 82ms (Views: 0.5ms | ActiveRecord: 65.9ms | Allocations: 11947)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:11 -0400
+  [1m[36mQuiz Update (11.2ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 87], ["updated_at", "2020-07-29 20:46:11.147999"], ["id", 1]]
+  [1m[35m (9.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 87ms (Views: 0.6ms | ActiveRecord: 75.4ms | Allocations: 11704)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (36.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 107ms (Views: 0.4ms | ActiveRecord: 92.7ms | Allocations: 15943)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:11 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:11 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>86, "id"=>"2", "quiz"=>{"likes"=>86}}
+  [1m[36mQuiz Update (106.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 72], ["updated_at", "2020-07-29 20:46:11.090222"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (50.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 125ms (Views: 0.4ms | ActiveRecord: 107.3ms | Allocations: 13845)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:46:11 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>73, "id"=>"3", "quiz"=>{"likes"=>73}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>73, "id"=>"2", "quiz"=>{"likes"=>73}}
+  [1m[36mQuiz Load (55.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>88, "id"=>"1", "quiz"=>{"likes"=>88}}
+  [1m[36mQuiz Load (30.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (31.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (14.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (64.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (25.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (16.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (24.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 222ms (Views: 0.4ms | ActiveRecord: 191.8ms | Allocations: 25377)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:11 -0400
+  [1m[36mQuiz Update (12.2ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 73], ["updated_at", "2020-07-29 20:46:11.287557"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (27.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (19.7ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 73], ["updated_at", "2020-07-29 20:46:11.277997"], ["id", 3]]
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (35.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 86], ["updated_at", "2020-07-29 20:46:11.266974"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 83ms (Views: 0.6ms | ActiveRecord: 63.6ms | Allocations: 11082)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>86, "id"=>"3", "quiz"=>{"likes"=>86}}
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (9.7ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 88], ["updated_at", "2020-07-29 20:46:11.298857"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:11 -0400
+Completed 200 OK in 107ms (Views: 3.9ms | ActiveRecord: 80.6ms | Allocations: 14637)
+
+
+  [1m[36mQuiz Load (8.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 92ms (Views: 1.1ms | ActiveRecord: 56.9ms | Allocations: 14195)
+
+
+  [1m[35m (26.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 164ms (Views: 0.7ms | ActiveRecord: 142.0ms | Allocations: 19708)
+
+
+  [1m[35m (17.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:11 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:11 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>74, "id"=>"3", "quiz"=>{"likes"=>74}}
+  [1m[36mQuiz Update (7.1ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 86], ["updated_at", "2020-07-29 20:46:11.352934"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>87, "id"=>"2", "quiz"=>{"likes"=>87}}
+  [1m[35m (9.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 66ms (Views: 0.5ms | ActiveRecord: 42.2ms | Allocations: 8992)
+
+
+  [1m[36mQuiz Load (14.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (5.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Load (14.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:46:11 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>74, "id"=>"2", "quiz"=>{"likes"=>74}}
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:11 -0400
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>84, "id"=>"1", "quiz"=>{"likes"=>84}}
+  [1m[36mQuiz Load (4.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQuiz Update (4.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 74], ["updated_at", "2020-07-29 20:46:11.411911"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (2.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>87, "id"=>"3", "quiz"=>{"likes"=>87}}
+  [1m[35m (13.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (18.9ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 87], ["updated_at", "2020-07-29 20:46:11.438376"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (11.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (19.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (13.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Update (10.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 74], ["updated_at", "2020-07-29 20:46:11.455092"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mQuiz Update (3.0ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 84], ["updated_at", "2020-07-29 20:46:11.467467"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (1.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 87], ["updated_at", "2020-07-29 20:46:11.485480"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 104ms (Views: 0.5ms | ActiveRecord: 43.8ms | Allocations: 14997)
+
+
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 91ms (Views: 0.3ms | ActiveRecord: 37.3ms | Allocations: 16115)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 34ms (Views: 0.4ms | ActiveRecord: 16.8ms | Allocations: 9097)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 67ms (Views: 1.2ms | ActiveRecord: 30.4ms | Allocations: 14153)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:11 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:11 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:46:11 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:46:11 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>75, "id"=>"2", "quiz"=>{"likes"=>75}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>88, "id"=>"2", "quiz"=>{"likes"=>88}}
+  [1m[35m (29.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 92ms (Views: 0.6ms | ActiveRecord: 49.0ms | Allocations: 16607)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>88, "id"=>"3", "quiz"=>{"likes"=>88}}
+  [1m[36mQuiz Load (16.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>75, "id"=>"3", "quiz"=>{"likes"=>75}}
+  [1m[36mQuiz Load (17.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (9.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mQuiz Load (11.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (5.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mQuiz Update (1.1ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 75], ["updated_at", "2020-07-29 20:46:11.563123"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mQuiz Update (4.3ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 88], ["updated_at", "2020-07-29 20:46:11.553215"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (1.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 75], ["updated_at", "2020-07-29 20:46:11.566936"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 59ms (Views: 0.5ms | ActiveRecord: 19.8ms | Allocations: 12181)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (17.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (23.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 88], ["updated_at", "2020-07-29 20:46:11.571605"], ["id", 3]]
+Completed 200 OK in 51ms (Views: 0.9ms | ActiveRecord: 29.9ms | Allocations: 9687)
+
+
+  [1m[35m (21.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 76ms (Views: 1.4ms | ActiveRecord: 47.0ms | Allocations: 14000)
+
+
+  [1m[35m (13.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 77ms (Views: 1.2ms | ActiveRecord: 49.5ms | Allocations: 13131)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:46:11 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>89, "id"=>"1", "quiz"=>{"likes"=>89}}
+  [1m[36mQuiz Load (1.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (0.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 89], ["updated_at", "2020-07-29 20:46:11.762259"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 1.9ms | Allocations: 3122)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:46:13 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:46:13 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.9ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.9ms | Allocations: 6007)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:46:15 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 2041)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:46:15 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.4ms | Allocations: 6007)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:46:59 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (3.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 29ms (Views: 22.4ms | ActiveRecord: 3.1ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:47:03 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:47:03 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 1.5ms | Allocations: 6008)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:47:06 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>89, "id"=>"2", "quiz"=>{"likes"=>89}}
+  [1m[36mQuiz Load (1.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (19.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 89], ["updated_at", "2020-07-29 20:47:06.239133"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (8.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 45ms (Views: 0.3ms | ActiveRecord: 30.3ms | Allocations: 3121)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:47:10 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (1.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 1.5ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:47:10 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (2.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 2.1ms | Allocations: 6007)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:47:14 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.8ms | Allocations: 2041)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:47:14 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.4ms | Allocations: 6007)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:49:50 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (1.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 125ms (Views: 114.8ms | ActiveRecord: 1.3ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:49:51 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:49:51 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.6ms | Allocations: 6007)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:49:54 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>89, "id"=>"3", "quiz"=>{"likes"=>89}}
+  [1m[36mQuiz Load (0.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (3.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 89], ["updated_at", "2020-07-29 20:49:54.478291"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 25ms (Views: 0.9ms | ActiveRecord: 5.2ms | Allocations: 3121)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:50:35 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (1.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 1.6ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:50:37 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.7ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:50:37 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.6ms | Allocations: 6007)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:50:41 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>90, "id"=>"2", "quiz"=>{"likes"=>90}}
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (0.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 90], ["updated_at", "2020-07-29 20:50:41.296022"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 36ms (Views: 0.4ms | ActiveRecord: 2.8ms | Allocations: 3122)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:50:53 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (0.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.8ms | Allocations: 1120)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:50:54 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.4ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:50:54 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 1.4ms | Allocations: 6008)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:50:56 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>90, "id"=>"3", "quiz"=>{"likes"=>90}}
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (0.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 90], ["updated_at", "2020-07-29 20:50:56.464511"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (9.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 21ms (Views: 0.4ms | ActiveRecord: 10.8ms | Allocations: 3121)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:51:04 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.5ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:51:04 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:06 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>91, "id"=>"3", "quiz"=>{"likes"=>91}}
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:06 -0400
+  [1m[36mQuiz Load (4.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>91, "id"=>"2", "quiz"=>{"likes"=>91}}
+  [1m[36mQuiz Update (12.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 91], ["updated_at", "2020-07-29 20:51:06.151225"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 41ms (Views: 0.7ms | ActiveRecord: 19.1ms | Allocations: 4082)
+
+
+  [1m[36mQuiz Load (12.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (1.1ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 91], ["updated_at", "2020-07-29 20:51:06.195396"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 42ms (Views: 0.4ms | ActiveRecord: 15.2ms | Allocations: 4779)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:51:14 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:51:14 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 1.1ms | Allocations: 6008)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:51:18 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (6.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 4.4ms | ActiveRecord: 6.4ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:51:18 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.8ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.8ms | Allocations: 6007)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:23 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"3", "quiz"=>{"likes"=>92}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"2", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (7.9ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Processing by Api::V1::QuizzesController#update as */*
+Processing by Api::V1::QuizzesController#update as */*
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (2.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Parameters: {"likes"=>90, "id"=>"3", "quiz"=>{"likes"=>90}}
+  Parameters: {"likes"=>91, "id"=>"2", "quiz"=>{"likes"=>91}}
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (6.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (5.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Update (2.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 92], ["updated_at", "2020-07-29 20:51:23.123248"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 6.4ms | Allocations: 3892)
+
+
+  [1m[36mQuiz Update (3.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 92], ["updated_at", "2020-07-29 20:51:23.118190"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (3.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (11.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (9.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 43ms (Views: 0.3ms | ActiveRecord: 17.3ms | Allocations: 9615)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (3.2ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 90], ["updated_at", "2020-07-29 20:51:23.143513"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 51ms (Views: 0.3ms | ActiveRecord: 27.4ms | Allocations: 10875)
+
+
+  [1m[35m (17.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 57ms (Views: 0.7ms | ActiveRecord: 29.5ms | Allocations: 10022)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:23 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>93, "id"=>"3", "quiz"=>{"likes"=>93}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"2", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (2.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  [1m[36mQuiz Load (2.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>91, "id"=>"3", "quiz"=>{"likes"=>91}}
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  Parameters: {"likes"=>93, "id"=>"2", "quiz"=>{"likes"=>93}}
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 2.8ms | Allocations: 2826)
+
+
+  [1m[36mQuiz Load (4.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (5.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (4.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (14.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (8.9ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 93], ["updated_at", "2020-07-29 20:51:23.437568"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (28.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 93], ["updated_at", "2020-07-29 20:51:23.460709"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (27.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 78ms (Views: 0.6ms | ActiveRecord: 40.8ms | Allocations: 8973)
+
+
+  [1m[35m (16.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 70ms (Views: 0.6ms | ActiveRecord: 54.8ms | Allocations: 7144)
+
+
+  [1m[36mQuiz Update (48.0ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 91], ["updated_at", "2020-07-29 20:51:23.454846"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 83ms (Views: 0.4ms | ActiveRecord: 69.9ms | Allocations: 9695)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:23 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>93, "id"=>"2", "quiz"=>{"likes"=>93}}
+  [1m[36mQuiz Load (4.9ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"3", "quiz"=>{"likes"=>92}}
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 22ms (Views: 0.4ms | ActiveRecord: 4.9ms | Allocations: 2144)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>94, "id"=>"3", "quiz"=>{"likes"=>94}}
+  [1m[36mQuiz Load (4.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Processing by Api::V1::QuizzesController#update as */*
+  [1m[36mQuiz Load (5.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  Parameters: {"likes"=>94, "id"=>"2", "quiz"=>{"likes"=>94}}
+  [1m[35m (4.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Load (5.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (3.7ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 94], ["updated_at", "2020-07-29 20:51:23.633486"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mQuiz Update (3.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 92], ["updated_at", "2020-07-29 20:51:23.632124"], ["id", 3]]
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 31ms (Views: 0.4ms | ActiveRecord: 15.0ms | Allocations: 7535)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (8.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 94], ["updated_at", "2020-07-29 20:51:23.651354"], ["id", 2]]
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 17.2ms | Allocations: 9521)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (25.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 62ms (Views: 0.4ms | ActiveRecord: 39.6ms | Allocations: 8067)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:23 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>95, "id"=>"3", "quiz"=>{"likes"=>95}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>95, "id"=>"2", "quiz"=>{"likes"=>95}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>93, "id"=>"3", "quiz"=>{"likes"=>93}}
+Processing by Api::V1::QuizzesController#update as */*
+  [1m[36mQuiz Load (13.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Parameters: {"likes"=>94, "id"=>"2", "quiz"=>{"likes"=>94}}
+  [1m[36mQuiz Load (17.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (3.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[36mQuiz Load (9.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (3.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (1.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 9.4ms | Allocations: 3403)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (1.5ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 95], ["updated_at", "2020-07-29 20:51:23.790157"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (9.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (11.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 95], ["updated_at", "2020-07-29 20:51:23.797091"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (15.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (7.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 63ms (Views: 0.3ms | ActiveRecord: 34.3ms | Allocations: 10093)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (13.3ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 93], ["updated_at", "2020-07-29 20:51:23.803716"], ["id", 3]]
+Completed 200 OK in 69ms (Views: 0.4ms | ActiveRecord: 38.2ms | Allocations: 11076)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 59ms (Views: 0.3ms | ActiveRecord: 27.1ms | Allocations: 10906)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:51:23 -0400
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:51:23 -0400
+Processing by Api::V1::QuizzesController#update as */*
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>96, "id"=>"3", "quiz"=>{"likes"=>96}}
+  Parameters: {"likes"=>95, "id"=>"2", "quiz"=>{"likes"=>95}}
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>96, "id"=>"2", "quiz"=>{"likes"=>96}}
+  [1m[36mQuiz Load (1.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Processing by Api::V1::QuizzesController#update as */*
+  [1m[36mQuiz Load (8.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  Parameters: {"likes"=>94, "id"=>"3", "quiz"=>{"likes"=>94}}
+  [1m[36mQuiz Load (8.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 8.8ms | Allocations: 1945)
+
+
+  [1m[36mQuiz Load (0.8ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (7.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (5.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (4.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 96], ["updated_at", "2020-07-29 20:51:23.954802"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (6.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 96], ["updated_at", "2020-07-29 20:51:23.941948"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (10.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mQuiz Update (13.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 94], ["updated_at", "2020-07-29 20:51:23.956988"], ["id", 3]]
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 44ms (Views: 0.4ms | ActiveRecord: 27.8ms | Allocations: 9608)
+
+
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 49ms (Views: 0.3ms | ActiveRecord: 23.6ms | Allocations: 10557)
+
+
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 40ms (Views: 0.9ms | ActiveRecord: 22.2ms | Allocations: 9076)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:51:25 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (1.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.5ms | Allocations: 2041)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:51:25 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.7ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.7ms | Allocations: 6007)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:51:26 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.7ms | Allocations: 2041)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:51:26 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.7ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.7ms | Allocations: 6007)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:52:13 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (0.9ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 33ms (Views: 21.1ms | ActiveRecord: 0.9ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:52:15 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.4ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:52:15 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:52:17 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>90, "id"=>"1", "quiz"=>{"likes"=>90}}
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (0.7ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 90], ["updated_at", "2020-07-29 20:52:17.086589"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 2.7ms | Allocations: 3120)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:52:18 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>90, "id"=>"1", "quiz"=>{"likes"=>90}}
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 988)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:52:18 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>90, "id"=>"1", "quiz"=>{"likes"=>90}}
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:52:19 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>90, "id"=>"1", "quiz"=>{"likes"=>90}}
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:52:20 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>90, "id"=>"1", "quiz"=>{"likes"=>90}}
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:52:20 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>90, "id"=>"1", "quiz"=>{"likes"=>90}}
+  [1m[36mQuiz Load (0.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:52:21 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>90, "id"=>"1", "quiz"=>{"likes"=>90}}
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 990)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:52:24 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (1.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 1.6ms | Allocations: 2043)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:52:24 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.3ms | Allocations: 6007)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:52:25 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:52:25 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:55:57 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (1.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 36ms (Views: 30.2ms | ActiveRecord: 1.0ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:55:59 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.5ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:55:59 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:56:02 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>97, "id"=>"2", "quiz"=>{"likes"=>97}}
+  [1m[36mQuiz Load (3.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (15.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (4.4ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 97], ["updated_at", "2020-07-29 20:56:02.243614"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (8.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 45ms (Views: 0.4ms | ActiveRecord: 30.6ms | Allocations: 3122)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 16:58:28 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (1.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 60ms (Views: 47.2ms | ActiveRecord: 1.2ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:58:30 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.5ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:58:30 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (1.0ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 1.0ms | Allocations: 6008)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:58:42 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>95, "id"=>"3", "quiz"=>{"likes"=>95}}
+  [1m[36mQuiz Load (1.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (0.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 95], ["updated_at", "2020-07-29 20:58:42.908853"], ["id", 3]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 28ms (Views: 0.6ms | ActiveRecord: 7.5ms | Allocations: 3120)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:58:44 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>95, "id"=>"3", "quiz"=>{"likes"=>95}}
+  [1m[36mQuiz Load (0.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.3ms | Allocations: 988)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:58:44 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>95, "id"=>"3", "quiz"=>{"likes"=>95}}
+  [1m[36mQuiz Load (0.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:58:44 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>95, "id"=>"3", "quiz"=>{"likes"=>95}}
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 990)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:58:56 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.4ms | Allocations: 2043)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:58:56 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.4ms | Allocations: 6007)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:58:59 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.7ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:58:59 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:59:01 -0400
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:59:01 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:59:01 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>91, "id"=>"1", "quiz"=>{"likes"=>91}}
+  [1m[36mQuiz Load (1.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (1.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 91], ["updated_at", "2020-07-29 20:59:01.655470"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 3.7ms | Allocations: 3120)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>95, "id"=>"3", "quiz"=>{"likes"=>95}}
+  Parameters: {"likes"=>95, "id"=>"3", "quiz"=>{"likes"=>95}}
+  [1m[36mQuiz Load (0.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mQuiz Load (0.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 1594)
+
+
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 2241)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:59:03 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.8ms | Allocations: 2044)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:59:03 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (2.8ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 2.8ms | Allocations: 6008)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:59:03 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (6.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 5.0ms | ActiveRecord: 6.4ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:59:03 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.3ms | Allocations: 6008)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:59:11 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.4ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:59:11 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.4ms | Allocations: 6008)
+
+
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:59:12 -0400
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:59:12 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:59:12 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>95, "id"=>"3", "quiz"=>{"likes"=>95}}
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 16:59:12 -0400
+Started PATCH "/api/v1/quizzes/3" for ::1 at 2020-07-29 16:59:12 -0400
+  [1m[36mQuiz Load (24.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 29ms (Views: 0.4ms | ActiveRecord: 24.6ms | Allocations: 2290)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>91, "id"=>"1", "quiz"=>{"likes"=>91}}
+  Parameters: {"likes"=>95, "id"=>"3", "quiz"=>{"likes"=>95}}
+  [1m[36mQuiz Load (1.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mQuiz Load (2.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 1.3ms | Allocations: 1471)
+
+
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 2.3ms | Allocations: 2004)
+
+
+Processing by Api::V1::QuizzesController#update as */*
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>91, "id"=>"1", "quiz"=>{"likes"=>91}}
+  Parameters: {"likes"=>95, "id"=>"3", "quiz"=>{"likes"=>95}}
+  [1m[36mQuiz Load (0.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mQuiz Load (0.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 1.0ms | Allocations: 1594)
+
+
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 1.2ms | Allocations: 2258)
+
+
+Started PATCH "/api/v1/quizzes/2" for ::1 at 2020-07-29 16:59:13 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>98, "id"=>"2", "quiz"=>{"likes"=>98}}
+  [1m[36mQuiz Load (1.3ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (0.6ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 98], ["updated_at", "2020-07-29 20:59:13.160495"], ["id", 2]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (8.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 19ms (Views: 0.3ms | ActiveRecord: 10.8ms | Allocations: 3146)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:59:16 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.7ms | Allocations: 2041)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:59:16 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.6ms | Allocations: 6008)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 16:59:19 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.3ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 16:59:19 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.3ms | Allocations: 6008)
+
+
+Started GET "/api/v1/quizzes" for ::1 at 2020-07-29 17:02:11 -0400
+Processing by Api::V1::QuizzesController#index as */*
+  [1m[36mQuiz Load (14.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:6:in `index'
+Completed 200 OK in 88ms (Views: 65.0ms | ActiveRecord: 14.5ms | Allocations: 1119)
+
+
+Started GET "/api/v1/questions" for ::1 at 2020-07-29 17:02:12 -0400
+Processing by Api::V1::QuestionsController#index as */*
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions"[0m
+  ↳ app/controllers/api/v1/questions_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.5ms | Allocations: 2040)
+
+
+Started GET "/api/v1/answers" for ::1 at 2020-07-29 17:02:12 -0400
+Processing by Api::V1::AnswersController#index as */*
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  ↳ app/controllers/api/v1/answers_controller.rb:6:in `index'
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.6ms | Allocations: 6007)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:13 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (24.6ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+  [1m[35m (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[36mQuiz Update (1.8ms)[0m  [1m[33mUPDATE "quizzes" SET "likes" = $1, "updated_at" = $2 WHERE "quizzes"."id" = $3[0m  [["likes", 92], ["updated_at", "2020-07-29 21:02:13.932101"], ["id", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+  [1m[35m (9.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/quizzes_controller.rb:17:in `update'
+Completed 200 OK in 91ms (Views: 4.5ms | ActiveRecord: 38.1ms | Allocations: 3121)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:22 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (1.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 14ms (Views: 3.4ms | ActiveRecord: 1.1ms | Allocations: 988)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:32 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (0.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.4ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:32 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (4.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 4.0ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:33 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (7.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 24ms (Views: 10.0ms | ActiveRecord: 7.0ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:33 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (17.2ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 30ms (Views: 0.4ms | ActiveRecord: 17.2ms | Allocations: 996)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:33 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (10.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 25ms (Views: 4.1ms | ActiveRecord: 10.0ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:33 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (11.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 18ms (Views: 1.2ms | ActiveRecord: 11.4ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:33 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (6.7ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 19ms (Views: 1.9ms | ActiveRecord: 6.7ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:34 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (15.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 34ms (Views: 0.7ms | ActiveRecord: 15.4ms | Allocations: 991)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:34 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (0.5ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.5ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:34 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (3.1ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 9ms (Views: 1.5ms | ActiveRecord: 3.1ms | Allocations: 990)
+
+
+Started PATCH "/api/v1/quizzes/1" for ::1 at 2020-07-29 17:02:34 -0400
+Processing by Api::V1::QuizzesController#update as */*
+  Parameters: {"likes"=>92, "id"=>"1", "quiz"=>{"likes"=>92}}
+  [1m[36mQuiz Load (7.4ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes" WHERE "quizzes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/quizzes_controller.rb:16:in `update'
+Completed 200 OK in 16ms (Views: 2.1ms | ActiveRecord: 7.4ms | Allocations: 990)
+
+
