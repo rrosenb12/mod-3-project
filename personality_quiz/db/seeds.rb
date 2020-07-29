@@ -19,9 +19,9 @@ puts 'creating users'
 end
 
 puts 'creating quizzes'
-Quiz.create(title: 'Which color are you')
-Quiz.create(title: 'Which animal are you')
-Quiz.create(title: 'Which day of the week are you')
+Quiz.create(title: 'Which Color Are You?')
+Quiz.create(title: 'Which Instructor Are You?')
+Quiz.create(title: 'Which Mod Are you?')
 
 puts 'creating results'
 Result.create(description:"Blue", quiz_id: 1)
@@ -33,8 +33,15 @@ Result.create(description:"Violet", quiz_id: 1)
 puts 'creating questions'
 Question.create(content: "What's your preffered vacation?", quiz_id: 1)
 Question.create(content: "What letter does your name begin with?", quiz_id: 1)
-Question.create(content: "Which Hogwartz house are you with?", quiz_id: 1)
+Question.create(content: "Which Hogwurtz house are you with?", quiz_id: 1)
 Question.create(content: "What was favorite class in highschool?", quiz_id: 1)
+
+Question.create(content: "Does your slack profile pic look like you?", quiz_id: 2)
+Question.create(content: "Which language do you prefer?", quiz_id: 2)
+Question.create(content: "What is your spirit pokemon?", quiz_id: 2)
+Question.create(content: "What is your favorite?", quiz_id: 2)
+
+
 
 
 # puts 'creating user results'
@@ -62,5 +69,20 @@ Answer.create(question_id:4, answer_content: "Math", value:1)
 Answer.create(question_id:4, answer_content: "Science", value:2)
 Answer.create(question_id:4, answer_content: "History", value:3)
 Answer.create(question_id:4, answer_content: "Art", value:4)
+
+Answer.create(question_id:5, answer_content: "Sometimes", value:5)
+Answer.create(question_id:5, answer_content: "Always", value:6)
+Answer.create(question_id:5, answer_content: "Who is she", value:7)
+Answer.create(question_id:5, answer_content: "What is Slack?", value:8)
+
+Answer.create(question_id:6, answer_content: "Ruby/Rails", value:5)
+Answer.create(question_id:6, answer_content: "JavaScript/React", value:6)
+Answer.create(question_id:6, answer_content: "English", value:7)
+Answer.create(question_id:6, answer_content: "Other", value:8)
+
+Answer.create(question_id:7, answer_content: "Bulbasaur", value:5)
+Answer.create(question_id:7, answer_content: "Shiny Charzard", value:6)
+Answer.create(question_id:7, answer_content: "English", value:7)
+Answer.create(question_id:7, answer_content: "Other", value:8)
 
 
