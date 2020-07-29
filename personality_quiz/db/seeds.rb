@@ -13,15 +13,15 @@ Question.destroy_all
 UserResult.destroy_all
 Answer.destroy_all
 
-puts 'creating users'
-5.times do 
-    User.create(name: Faker::Name.unique.name)
-end
+# puts 'creating users'
+# 5.times do 
+#     User.create(name: Faker::Name.unique.name)
+# end
 
 puts 'creating quizzes'
-Quiz.create(title: 'Which Color Are You?')
-Quiz.create(title: 'Which Instructor Are You?')
-Quiz.create(title: 'Which Mod Are you?')
+Quiz.create(title: 'Which Color Are You?', likes: 0)
+Quiz.create(title: 'Which Instructor Are You?', likes: 0)
+Quiz.create(title: 'Which Mod Are you?', likes: 0)
 
 puts 'creating results'
 Result.create(title:"Blue", description: "You are sad but also edgy. People like being around you but they can't really tell why. No one will ever call you 'nice' though, so that's a plus.", quiz_id: 1)
