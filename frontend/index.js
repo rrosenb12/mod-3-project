@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const likeButton = document.createElement('button')
     likeButton.innerText = 'Like This Quiz'
 
-    const likes = document.createElement('p')
+    // let likes = document.createElement('p')
 
     let quizzesArray
     let questionsArray
@@ -66,6 +66,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     const getQuestions = (questionsArray, quizNow, answersArray) => {
         const quizQuestions = questionsArray.filter(question => question.quiz_id == quizNow.id)
+        let likes = document.createElement('p')
+        likes.dataset.id = quizNow.id
         if (quizNow.likes === 0) {
             likes.innerHTML = `<span>0</span> likes`
         } else {
@@ -75,29 +77,31 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
 
     const renderQuestions = (quizQuestions, answersArray, likes, quizNow) => {
+        displayResult.innerHTML = ``
+        valuesArray = []
         quizQuestions.forEach(question => {
             const questionLi = document.createElement('li')
-            questionLi.innerText = question.content
+            questionLi.innerHTML = `${question.content}<br>`
             const questionAnswers = answersArray.filter(answer => answer.question_id == question.id)
             questionAnswers.forEach(answer => {
                 const questionAnswer = document.createElement('button')
                 questionAnswer.innerText = answer.answer_content
                 questionAnswer.dataset.value = answer.value
                 questionAnswer.className = 'the-questions-answer'
-
                 questionLi.append(questionAnswer)
                 questionsContainer.append(questionLi)
             })
         })
         questionsContainer.append(submitButton)
         displayQuiz.append(questionsContainer, likeButton, likes)
-        addLikes(likeButton, likes, quizNow)
+        addLikes(likes, quizNow)
     }
 
-    const addLikes = (likeButton, likes, quizNow) => {
+    const addLikes = (likes, quizNow) => {
         likeButton.addEventListener('click', e => {
             e.preventDefault()
             let newLikes = (Number(likes.firstChild.innerText) + 1)
+            console.log(likes)
             fetch(`http://localhost:3000/api/v1/quizzes/${quizNow.id}`, {
                 method: 'PATCH',
                 headers: {
@@ -109,8 +113,13 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 })
             })
             .then(response => response.json())
-            .then(likes.innerHTML = `<span>${newLikes}</span> likes`)
+            .then(updateLikes(newLikes, likes))
         })
+    }
+
+    const updateLikes = (newLikes, likes) => {
+   likes.innerHTML = ``     
+   likes.innerHTML = `<span>${newLikes}</span> likes`
     }
 
     const getValues = () => {
@@ -119,7 +128,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 answerB = e.target 
                 valuesArray.push(answerB.dataset.value)
                 answerBParent = answerB.parentNode
-                const firstButton = answerBParent.firstChild.nextSibling 
+                const firstButton = answerBParent.firstChild.nextSibling.nextSibling 
                 const secondButton = firstButton.nextSibling
                 const thirdButton = secondButton.nextSibling
                 const fourthButton = thirdButton.nextSibling

@@ -28,5 +28,13 @@
 }
 
 .the-questions-answer {
+    margin: 20px;
+}
+
+button {
     background-color: greenyellow;
+}
+
+ul {
+    list-style-type: none;
 }
