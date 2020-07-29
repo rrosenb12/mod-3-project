@@ -97,8 +97,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 secondButton.disabled = true
                 thirdButton.disabled = true
                 fourthButton.disabled = true
-
-                // answerBParent.children.disabled = true 
             }
         })
     }
@@ -112,6 +110,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
 
     const getResult = (sum) => {
+        let id;
         if (sum >= 4 && sum < 7){
             id = 1
             fetchResult(id)
@@ -124,9 +123,32 @@ document.addEventListener("DOMContentLoaded", (e) => {
         } else if (sum >= 13 && sum <= 16){
             id = 4
             fetchResult(id)
+        } else if (sum >= 20 && sum < 23){
+            id = 5
+            fetchResult(id)
+        } else if (sum >= 23 && sum < 26){
+            id = 6
+            fetchResult(id)
+        } else if (sum >= 26 && sum < 29){
+            id = 7
+            fetchResult(id)
+        } else if (sum >= 29 && sum <= 32){
+            id = 8
+            fetchResult(id)
+        } else if (sum >=36 && sum < 39){
+            id = 9
+            fetchResult(id)
+        } else if (sum >= 39 && sum < 42){
+            id = 10
+            fetchResult(id)
+        } else if (sum >= 42 && sum < 45){
+            id = 11
+            fetchResult(id)
+        } else if (sum >= 45 && sum <= 48){
+            id = 12
+            fetchResult(id)
         }
     }
-
 
     const fetchResult = (id) => {
         fetch(`http://localhost:3000/api/v1/results/${id}`)
@@ -136,10 +158,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     const renderResult = (result) => {
         const resultH2 = document.createElement('h2')
-        resultH2.innerText = result.description
-        displayResult.append(resultH2)
-
-
+        resultH2.innerText = result.title
+        const resultP = document.createElement('p')
+        resultP.innerText = result.description
+        displayResult.append(resultH2, resultP)
     }
 
 
