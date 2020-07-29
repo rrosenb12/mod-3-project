@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         quizzesContainer.append(quizSpan)
         quizSpan.addEventListener('click', (e) => {
             questionsContainer.innerHTML = ``
+            displayQuiz.innerHTML = ``
             getQuiz(e)
         })
     }
@@ -79,6 +80,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const renderQuestions = (quizQuestions, answersArray, likes, quizNow) => {
         displayResult.innerHTML = ``
         valuesArray = []
+
+        // if (displayQuiz.firstElementChild.className === 'null'){
+        //     displayQuiz.firstElementChild.remove()
+        // } 
         quizQuestions.forEach(question => {
             const questionLi = document.createElement('li')
             questionLi.innerHTML = `${question.content}<br>`
@@ -100,8 +105,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const addLikes = (likes, quizNow) => {
         likeButton.addEventListener('click', e => {
             e.preventDefault()
-            let newLikes = (Number(likes.firstChild.innerText) + 1)
-            console.log(likes)
+            let newLikes = (quizNow.likes + 1)
+            // let newLikes = (Number(likes.firstChild.innerText) + 1)
             fetch(`http://localhost:3000/api/v1/quizzes/${quizNow.id}`, {
                 method: 'PATCH',
                 headers: {
@@ -113,7 +118,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 })
             })
             .then(response => response.json())
-            .then(updateLikes(newLikes, likes))
+            .then(updateLikes(newLikes, likes), console.log(likes))
         })
     }
 
