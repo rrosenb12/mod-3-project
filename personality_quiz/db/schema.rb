@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(version: 2020_07_27_212138) do
   end
 
   create_table "results", force: :cascade do |t|
+    t.string "title"
     t.string "description"
     t.integer "quiz_id"
     t.datetime "created_at", precision: 6, null: false
