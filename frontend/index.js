@@ -95,9 +95,31 @@ document.addEventListener("DOMContentLoaded", (e) => {
         submitButton.addEventListener('click', (e) => {
             let valuesToSum = valuesArray.map(value => Number(value))
             let sum = valuesToSum.reduce((a, b) => a + b)
-            console.log(sum)
+            getResult(sum)
         })
     }
+
+    const getResult = (sum) => {
+        if (sum >= 4 && sum < 7){
+            id = 1
+            fetchResult(id)
+        } else if (sum >= 7 && sum < 10){
+            id = 2
+            fetchResult(id)
+        } else if (sum >= 10 && sum < 13){
+            id = 3
+            fetchResult(id)
+        } else if (sum >= 13 && sum < 16){
+            id = 4
+            fetchResult(id)
+        }
+    }
+
+
+    const fetchResult = (id) => {
+        fetch(`http://localhost:3000/api/v1/results${id}`)
+    }
+
 
     submitHandler()
     fetchQuizzes();
