@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     const quizzesContainer = document.getElementById('quizzes-container')
     const displayQuiz = document.getElementById('display-quiz')
+    const displayResult = document.getElementById('display-result')
 
     const questionsContainer = document.createElement('ul')
     questionsContainer.className = 'questions-container'
@@ -69,7 +70,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             questionLi.innerText = question.content
             const questionAnswers = answersArray.filter(answer => answer.question_id == question.id)
             questionAnswers.forEach(answer => {
-                const questionAnswer = document.createElement('p')
+                const questionAnswer = document.createElement('button')
                 questionAnswer.innerText = answer.answer_content
                 questionAnswer.dataset.value = answer.value
                 questionAnswer.className = 'the-questions-answer'
@@ -84,9 +85,20 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     const getValues = () => {
         document.addEventListener('click', (e) => {
-            if (e.target.nodeName === 'P') {
-                answerP = e.target 
-                valuesArray.push(answerP.dataset.value)
+            if (e.target.nodeName === 'BUTTON') {
+                answerB = e.target 
+                valuesArray.push(answerB.dataset.value)
+                answerBParent = answerB.parentNode
+                const firstButton = answerBParent.firstChild.nextSibling 
+                const secondButton = firstButton.nextSibling
+                const thirdButton = secondButton.nextSibling
+                const fourthButton = thirdButton.nextSibling
+                firstButton.disabled = true
+                secondButton.disabled = true
+                thirdButton.disabled = true
+                fourthButton.disabled = true
+
+                // answerBParent.children.disabled = true 
             }
         })
     }
@@ -109,7 +121,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         } else if (sum >= 10 && sum < 13){
             id = 3
             fetchResult(id)
-        } else if (sum >= 13 && sum < 16){
+        } else if (sum >= 13 && sum <= 16){
             id = 4
             fetchResult(id)
         }
@@ -117,7 +129,17 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 
     const fetchResult = (id) => {
-        fetch(`http://localhost:3000/api/v1/results${id}`)
+        fetch(`http://localhost:3000/api/v1/results/${id}`)
+        .then(result => result.json())
+        .then(result => renderResult(result))
+    }
+
+    const renderResult = (result) => {
+        const resultH2 = document.createElement('h2')
+        resultH2.innerText = result.description
+        displayResult.append(resultH2)
+
+
     }
 
 
