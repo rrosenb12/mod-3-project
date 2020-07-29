@@ -14,7 +14,7 @@ submitButton.innerText = 'Submit'
 
 let quizzesArray
 let questionsArray
-let valueArray = []
+let valuesArray = []
 
 const fetchQuizzes = () => {
     fetch(`http://localhost:3000/api/v1/quizzes`)
@@ -75,7 +75,7 @@ const renderQuestions = (quizQuestions, answersArray) => {
             questionLi.append(questionAnswer)
             questionsContainer.append(questionLi)
             questionAnswer.addEventListener('click', (e) => {
-                 addValue(e)            
+                 getValues(e)            
             })
         })
     })
@@ -83,9 +83,9 @@ const renderQuestions = (quizQuestions, answersArray) => {
     displayQuiz.append(questionsContainer)
 }
 
-const addValue = (e) => {
-    valueArray.push(e.target.dataset.value)
-    console.log(valueArray)
+const getValues = (e) => {
+    valuesArray.push(e.target.dataset.value)
+    console.log(valuesArray)
 }
 
 fetchQuizzes();
