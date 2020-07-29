@@ -2,17 +2,25 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 const quizzesContainer = document.getElementById('quizzes-container')
 const displayQuiz = document.getElementById('display-quiz')
-let quizzesArray
-let questionsArray
+
 const questionsContainer = document.createElement('ul')
 questionsContainer.className = 'questions-container'
 
+const questionsDiv = document.createElement('div')
+questionsDiv.className = 'questions-div'
+
+const submitButton = document.createElement('button')
+submitButton.innerText = 'Submit'
+
+let quizzesArray
+let questionsArray
+let valueArray = []
 
 const fetchQuizzes = () => {
     fetch(`http://localhost:3000/api/v1/quizzes`)
     .then(response => response.json())
     .then(quizzes => {
-        quizzesArray = quizzes, 
+        quizzesArray = quizzes 
         quizzes.forEach(quiz => renderQuizzes(quiz)) })
 }
 
@@ -29,7 +37,6 @@ const renderQuizzes = (quiz) => {
 }
 
 const getQuiz = (e) => {
-
     const currentQuizId = e.target.dataset.id
     const quizNow = quizzesArray.find(quiz => quiz.id == currentQuizId)
     fetchQuestions(quizNow)
@@ -40,7 +47,8 @@ const fetchQuestions = (quizNow) => {
     .then(response => response.json())
     .then(questionsObj => {
         questionsArray = questionsObj
-        fetchAnswers(questionsArray, quizNow)})
+        fetchAnswers(questionsArray, quizNow)}
+    )
 }
 
 const fetchAnswers = (questionsArray, quizNow) => {
@@ -51,47 +59,34 @@ const fetchAnswers = (questionsArray, quizNow) => {
 
 const getQuestions = (questionsArray, quizNow, answersArray) => {
     const quizQuestions = questionsArray.filter(question => question.quiz_id == quizNow.id)
-    getAnswers(quizQuestions, answersArray)
-
+    renderQuestions(quizQuestions, answersArray)
 }
 
-const getAnswers = (quizQuestions, answersArray) => {
+const renderQuestions = (quizQuestions, answersArray) => {
     quizQuestions.forEach(question => {
+        const questionLi = document.createElement('li')
+        questionLi.innerText = question.content
         const questionAnswers = answersArray.filter(answer => answer.question_id == question.id)
-        renderQuestions(question, questionAnswers)
-        })
-}
-
-const renderQuestions = (question, questionAnswers) => {
-    const questionLi = document.createElement('li')
-    questionLi.innerText = question.content
-    
-    questionAnswers.forEach(answer => {
-        const questionAnswer = document.createElement('p')
-        questionAnswer.innerText = answer.answer_content
-        questionAnswer.dataset.value = answer.value
-        questionAnswer.className = 'the-questions-answer'
-        questionLi.append(questionAnswer)
-        
-        questionAnswer.addEventListener('click', function(e){
-             addValue(e)            
+        questionAnswers.forEach(answer => {
+            const questionAnswer = document.createElement('p')
+            questionAnswer.innerText = answer.answer_content
+            questionAnswer.dataset.value = answer.value
+            questionAnswer.className = 'the-questions-answer'
+            questionLi.append(questionAnswer)
+            questionsContainer.append(questionLi)
+            questionAnswer.addEventListener('click', (e) => {
+                 addValue(e)            
+            })
         })
     })
-    const submitButton = document.createElement('button')
-    submitButton.innerText = 'Submit'
-    questionsContainer.append(questionLi, submitButton)
+    questionsContainer.append(submitButton)
     displayQuiz.append(questionsContainer)
-
-    
 }
 
-let valueArray = []
-
-function addValue(e){
+const addValue = (e) => {
     valueArray.push(e.target.dataset.value)
     console.log(valueArray)
 }
-
 
 fetchQuizzes();
 
