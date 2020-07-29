@@ -13,6 +13,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const submitButton = document.createElement('button')
     submitButton.innerText = 'Submit'
 
+    const likeButton = document.createElement('button')
+    likeButton.innerText = 'Like This Quiz'
+
+    const likes = document.createElement('p')
+
     let quizzesArray
     let questionsArray
     let valuesArray = []
@@ -61,10 +66,15 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     const getQuestions = (questionsArray, quizNow, answersArray) => {
         const quizQuestions = questionsArray.filter(question => question.quiz_id == quizNow.id)
-        renderQuestions(quizQuestions, answersArray)
+        if (quizNow.likes === 0) {
+            likes.innerHTML = `<span>0</span> likes`
+        } else {
+            likes.innerHTML = `<span>${quizNow.likes}</span> likes`
+        }
+        renderQuestions(quizQuestions, answersArray, likes, quizNow)
     }
 
-    const renderQuestions = (quizQuestions, answersArray) => {
+    const renderQuestions = (quizQuestions, answersArray, likes, quizNow) => {
         quizQuestions.forEach(question => {
             const questionLi = document.createElement('li')
             questionLi.innerText = question.content
@@ -80,12 +90,32 @@ document.addEventListener("DOMContentLoaded", (e) => {
             })
         })
         questionsContainer.append(submitButton)
-        displayQuiz.append(questionsContainer)
+        displayQuiz.append(questionsContainer, likeButton, likes)
+        addLikes(likeButton, likes, quizNow)
+    }
+
+    const addLikes = (likeButton, likes, quizNow) => {
+        likeButton.addEventListener('click', e => {
+            e.preventDefault()
+            let newLikes = (Number(likes.firstChild.innerText) + 1)
+            fetch(`http://localhost:3000/api/v1/quizzes/${quizNow.id}`, {
+                method: 'PATCH',
+                headers: {
+                    'content-type': 'application/json',
+                    'accepts': 'application/json'
+                },
+                body: JSON.stringify({
+                    likes: newLikes
+                })
+            })
+            .then(response => response.json())
+            .then(likes.innerHTML = `<span>${newLikes}</span> likes`)
+        })
     }
 
     const getValues = () => {
         document.addEventListener('click', (e) => {
-            if (e.target.nodeName === 'BUTTON') {
+            if (e.target.className === 'the-questions-answer') {
                 answerB = e.target 
                 valuesArray.push(answerB.dataset.value)
                 answerBParent = answerB.parentNode
@@ -163,7 +193,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
         resultP.innerText = result.description
         displayResult.append(resultH2, resultP)
     }
-
 
     submitHandler()
     fetchQuizzes();
