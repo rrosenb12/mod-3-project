@@ -5,12 +5,15 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const displayResult = document.getElementById('display-result');
     const quizContentContainer = document.getElementById('quiz-content-container');
     const likes = document.createElement('span');
+    likes.className = 'likes'
     const questionsDiv = document.createElement('div');
     questionsDiv.className = 'questions-div';
     const submitButton = document.createElement('button');
     submitButton.innerText = 'Submit';
+    submitButton.className = 'submit-button'
     const likeButton = document.createElement('button');
     likeButton.innerText = 'Like This Quiz';
+    likeButton.className = 'like-button'
     let quizzesArray;
     let questionsArray;
     let answersArray;
@@ -68,6 +71,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         const quizNowQuestions = questionsArray.filter(question => question.quiz_id === quizNow.id);
         quizNowQuestions.forEach(question => {
             questionP = document.createElement('p');
+            questionP.className = 'question-p'
             questionP.textContent = question.content;
             questionBr = document.createElement('br');
             questionP.append(questionBr);
@@ -193,10 +197,13 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const renderResult = (result) => {
         const resultH2 = document.createElement('h2');
         resultH2.innerText = result.title;
+        const resultImg = document.createElement('img')
+        resultImg.src = result.img_url
+        resultImg.className = 'result-img'
         const resultP = document.createElement('p');
         resultP.className = 'result-p'
         resultP.innerText = result.description;
-        displayResult.append(resultH2, resultP);
+        displayResult.append(resultH2, resultImg, resultP);
     }
 
     fetchQuizzes();

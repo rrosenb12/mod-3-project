@@ -4,11 +4,10 @@ body {
     background-size: 500px 300px;
 }
 
-
 .parent {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(10, 0.25fr);
+    grid-template-rows: repeat(10, 0fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -28,6 +27,7 @@ body {
     margin: 50px;
     border: solid black;
     padding: 10px;
+    background-color: greenyellow;
 }
 .div3 { 
     grid-area: 3 / 2 / 11 / 4;
@@ -38,26 +38,103 @@ body {
     margin-top: 40px;
 }
 
-.the-questions-answer {
-    margin: 20px;
-    display: inline-block;
-}
-
 button {
     background-color: greenyellow;
+    height: 100px;
+    width: 250px;
 }
 
-ul {
-    list-style-type: none;
+h1 {
+    text-shadow:
+    -1px -1px 0 greenyellow,
+    1px -1px 0 greenyellow,
+    -1px 1px 0 greenyellow,
+    1px 1px 0 greenyellow;
 }
 
 h2 {
     text-align: center;
     margin: 0px;
+    text-shadow:
+    -1px -1px 0 greenyellow,
+    1px -1px 0 greenyellow,
+    -1px 1px 0 greenyellow,
+    1px 1px 0 greenyellow;
 }
 
 .result-p {
     text-align: justify;
+    color: greenyellow;
     margin: 50px;
     margin-top: 0px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.result-img {
+    width:  250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow:
+    -1px -1px 0 greenyellow,
+    1px -1px 0 greenyellow,
+    -1px 1px 0 greenyellow,
+    1px 1px 0 greenyellow;
+}
+
+.question-answer {
+    margin: 2px;
+}
+
+.submit-button {
+    font-family: "Comic Sans MS";
+    color: purple;
+    font-size: 30px;
+    margin-left: 65px;
+    margin-right: 2px;
+    padding: 10px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.like-button {
+    font-family: "Comic Sans MS";
+    color: purple;
+    font-size: 30px;
+    margin-right: 2px;
+    padding: 10px;
+    padding-left: 20px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.likes {
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    color: purple;
+    text-shadow:
+    -1px -1px 0 greenyellow,
+    1px -1px 0 greenyellow,
+    -1px 1px 0 greenyellow,
+    1px 1px 0 greenyellow;
+}
+
+.question-p {
+    text-align: center;
+    text-shadow:
+		-1px -1px 0 greenyellow,
+		1px -1px 0 greenyellow,
+		-1px 1px 0 greenyellow,
+		1px 1px 0 greenyellow;
 }
