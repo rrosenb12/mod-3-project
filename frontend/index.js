@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 })
             })
             .then(response => response.json())
-            .then(fetchQuizzes, updateLikes(newLikes))
+            .then(fetchQuizzes, quizzesContainer.innerHTML = ``, updateLikes(newLikes))
         })
     }
 
