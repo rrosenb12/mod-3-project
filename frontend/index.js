@@ -194,6 +194,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         const resultH2 = document.createElement('h2');
         resultH2.innerText = result.title;
         const resultP = document.createElement('p');
+        resultP.className = 'result-p'
         resultP.innerText = result.description;
         displayResult.append(resultH2, resultP);
     }
