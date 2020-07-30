@@ -64,6 +64,8 @@ h2 {
 
 .result-p {
     text-align: justify;
+    text-align: center;
+    font-size: 20px;
     color: greenyellow;
     margin: 50px;
     margin-top: 0px;
