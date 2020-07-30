@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Flat Person, the only personality quiz you'll ever need. 
 
-Things you may want to cover:
+Flat person will tell you the three most important aspects to yourself:
 
-* Ruby version
+1. Which color are you???
+2. Which instructor are you???
+3. WHICH MOD ARE U???
 
-* System dependencies
+If you want to dive into the depths of your soul, simply clone and 'cd' into this repository, and run the following commands in your terminal:
 
-* Configuration
+1. 'cd personality-quiz'
+2. 'rails db:create'
+3. 'rails db:migrate'
+4. 'rails db:seed'
+5. 'rails s'
+6. 'cd ..'
+7. 'cd frontend'
+8. 'open index.html'
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+And prepare to be amazed!!
