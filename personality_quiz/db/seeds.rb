@@ -19,9 +19,9 @@ Answer.destroy_all
 # end
 
 puts 'creating quizzes'
-Quiz.create(title: 'Which Color Are You?', likes: 0)
-Quiz.create(title: 'Which Instructor Are You?', likes: 0)
-Quiz.create(title: 'Which Mod Are you?', likes: 0)
+Quiz.create(title: 'Which Color Are You?', likes: 1)
+Quiz.create(title: 'Which Instructor Are You?', likes: 4)
+Quiz.create(title: 'Which Mod Are you?', likes: 7)
 
 puts 'creating results'
 Result.create(title:"Blue", description: "You are sad but also edgy. People like being around you but they can't really tell why. No one will ever call you 'nice' though, so that's a plus.", quiz_id: 1)
