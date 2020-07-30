@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
 
     const submitHandler = () => {
-        submitButton.addEventListener('click', (e) => {
+        submitButton.addEventListener('click', () => {
             let sum = valuesArray.reduce((a, b) => a + b);
             getResult(sum);
         })
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 })
             })
             .then(response => response.json())
-            .then(getQuestions(currentQuiz), updateLikes(newLikes))
+            .then(fetchQuizzes, updateLikes(newLikes))
         })
     }
 
